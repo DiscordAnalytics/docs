@@ -1,10 +1,10 @@
 # Table of contents
 
-* [discord-analytics-docs](README.md)
+* [🏠 Home](README.md)
 
 ## 🔨 Get started
 
-* [➕ Bot registration](get-started/bot-registration.md)
+* [➕ Bot registration](get-started/creating-an-account.md)
 * [🌐Installation](get-started/installation.md)
 
 ## 📦 patch-notes

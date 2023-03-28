@@ -2,7 +2,7 @@
 description: Official documentation
 ---
 
-# discord-analytics-docs
+# 🏠 Home
 
 
 
