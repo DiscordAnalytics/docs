@@ -8,9 +8,9 @@ Compatibility
 
 Check if your bot is compatible with Discord Analytics !
 
-| Library    | Minimal version |
+| Library    | Compatibility   |
 | ---------- | --------------- |
-| Discord.js | v13.X or higher |
+| Discord.js | v14.0 or higher |
 | Eris       | ❌               |
 | Discord.py | ❌               |
 | PyCord     | ❌               |
