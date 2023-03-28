@@ -4,5 +4,9 @@
 
 ## 🔨 Get started
 
-* [➕ Creating an account](get-started/creating-an-account.md)
+* [➕ Bot registration](get-started/bot-registration.md)
 * [🌐Installation](get-started/installation.md)
+
+## 📦 patch-notes
+
+* [v1.0](patch-notes/v1.0.md)
