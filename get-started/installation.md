@@ -76,10 +76,6 @@ client.on('ready', () => {
 // Don't forget to replace token by your Discord bot token !
 client.login('token');
 </code></pre>
-
-{% content-ref url="installation.md" %}
-[installation.md](installation.md)
-{% endcontent-ref %}
 {% endtab %}
 
 {% tab title="TypeScript" %}
