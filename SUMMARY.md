@@ -16,3 +16,4 @@
 
 * [Terms of Service](legals/terms.md)
 * [Privacy policy](legals/privacy-policy.md)
+* [Appeal sanction](legals/appeal-sanction.md)
