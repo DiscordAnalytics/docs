@@ -13,7 +13,7 @@ You can contact us by joining our [Discord's server](https://discord.gg/discord)
 These Terms of Service constitute a legally binding agreement made between you and Discord Analytics, concerning your access to and use of the Services. You agree by accessing the Services, you have read, understood and agreed all of these Legal Terms.&#x20;
 
 {% hint style="warning" %}
-If you don't agree with all of these legal terms, then you're expressly prihibed from using the services
+If you don't agree with all of these legal terms, then you're expressly prohibed from using the services
 {% endhint %}
 
 We reserve the right, in our sole discretion, to make changes or modifications to these Legal Terms from time to time. We will alert you about any changes by updating the "Last updated" date of these Legal Terms and by sending a message in our Discord's server, and you waive any right to receive specific notice of each such change. It is your responsibility to periodically review these Legal Terms to stay informed of updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Legal Terms by your continued use of the Services after the date such revised Legal Terms are posted.
