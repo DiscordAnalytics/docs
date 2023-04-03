@@ -1,23 +1,14 @@
 ---
-description: Let's install Discord Analytics on your Discord bot !
+description: Insallation guide for discord.js
 ---
 
-# 🌐Installation
+# Discord.js
 
-Compatibility
+## Compatibility
 
-Check if your bot is compatible with Discord Analytics !
+The package is compatible with Discord.js v14 or higher
 
-| Library    | Compatibility   |
-| ---------- | --------------- |
-| Discord.js | v14.0 or higher |
-| Eris       | ❌               |
-| Discord.py | ❌               |
-| PyCord     | ❌               |
-| JavaCord   | ❌               |
-| Discord4J  | ❌               |
-
-## Install dependencies
+## Dependencie
 
 Let's install `discord-analytics`'s package :&#x20;
 
@@ -29,21 +20,19 @@ npm install discord-analytics
 {% endtab %}
 
 {% tab title="YARN" %}
-```sh
+```bash
 yarn add discord-analytics
 ```
 {% endtab %}
 
-{% tab title="PIP" %}
-{% hint style="info" %}
-Not available at the moment...
-{% endhint %}
+{% tab title="PNPM" %}
+```bash
+pnpm install discord-analytics
+```
 {% endtab %}
 {% endtabs %}
 
-## Package setup
-
-### Discord.js
+## Installation
 
 {% tabs %}
 {% tab title="JavaScript" %}
@@ -112,39 +101,9 @@ client.login('token');
 {% endtab %}
 {% endtabs %}
 
-### Eris
+## Complete installation
 
-{% hint style="info" %}
-Not available at the moment...
-{% endhint %}
-
-### Discord.py
-
-{% hint style="info" %}
-Not available at the moment...
-{% endhint %}
-
-### PyCord
-
-{% hint style="info" %}
-Not available at the moment...
-{% endhint %}
-
-### JavaCord
-
-{% hint style="info" %}
-Not available at the moment...
-{% endhint %}
-
-### Discord4J
-
-{% hint style="info" %}
-Not available at the moment...
-{% endhint %}
-
-## Finish installation
-
-To finish the installation, please start your bot and check if there is no errors from Discord Analitycs.
+To complete installation, please restart your bot.
 
 {% hint style="warning" %}
 On first token usage, bot's informations will be saved. To avoid distorting the statistics, you won't be able to reuse the same token for another bot.

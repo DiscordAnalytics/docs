@@ -1,2 +1,2 @@
-# ➕ Bot registration
+# Bot registration
 
