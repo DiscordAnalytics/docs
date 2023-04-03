@@ -6,11 +6,11 @@ Here are Discord Analytics ("we", "us", "our") terms of service.
 
 We operate the website https://discord-analytics.net (the "site", "website", "services"), and all associated packages (the "services").
 
-Discord Analytics is an app to get stats of your Discord bot and make it better and adapted to it users.
+Discord Analytics is an app to get stats of your Discord bot and make it better and adapted to its users.
 
 You can contact us by joining our [Discord's server](https://discord.gg/discord) or by sending us [a mail](mailto:nolhan.dev@gmail.com).
 
-These Terms of Service constitute a legally binding agreement made between you and Discord Analytics, concerning your access to and use of the Services. You agree by accessing the Services, you have read, understood and agreed all of these Legal Terms.&#x20;
+These Terms of Service constitute a legally binding agreement made between you and Discord Analytics, concerning your access to and use of the Services. You agree by accessing the Services, you have read, understood and agreed all of these Legal Terms.
 
 {% hint style="warning" %}
 If you don't agree with all of these legal terms, then you're expressly prohibed from using the services
