@@ -8,7 +8,7 @@ description: Insallation guide for discord.js
 
 The package is compatible with Discord.js v14 or higher
 
-## Dependencie
+## Dependency
 
 Let's install `discord-analytics`'s package :&#x20;
 
