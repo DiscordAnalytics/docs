@@ -77,7 +77,7 @@ public class DiscordBot {
           // Initialize the DiscordAnalytics class
           DiscordAnalytics analytics = new DiscordAnalytics(client, eventsTracker, "YOUR_API_KEY");
           // Start the tracking in a new thread
-          // The tracking will be done every 10 minutes to avoid spamming the AP (10 minutes is the minimum)
+          // The tracking will be done every 10 minutes to avoid spamming the API (10 minutes is the minimum)
           new Thread(() -> {
             while (true) {
               try {
