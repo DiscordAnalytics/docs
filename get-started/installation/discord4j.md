@@ -57,6 +57,7 @@ import java.io.IOException;
 public class DiscordBot {
   public static void main(String[] args) {
     // Create a Discord client
+    // Don't forget to replace YOUR_BOT_TOKEN by your Discord bot token !
     DiscordClient client = DiscordClient.create("YOUR_BOT_TOKEN");
 
     Mono<Void> login = client.withGateway((GatewayDiscordClient gateway) ->
@@ -75,6 +76,7 @@ public class DiscordBot {
           eventsTracker.trackGuildsLocale = true;
 
           // Initialize the DiscordAnalytics class
+          // Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
           DiscordAnalytics analytics = new DiscordAnalytics(client, eventsTracker, "YOUR_API_KEY");
           // Start the tracking in a new thread
           // The tracking will be done every 10 minutes to avoid spamming the API (10 minutes is the minimum)
@@ -95,3 +97,11 @@ public class DiscordBot {
   }
 }
 ```
+
+## Complete installation
+
+To complete installation, please restart you bot
+
+{% hint style="warning" %}
+On first token usage, bot's informations will be saved. To avoid distorting the statistics, you won't be able to reuse the same token for another bot.
+{% endhint %}
