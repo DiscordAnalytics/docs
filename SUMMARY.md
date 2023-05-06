@@ -7,6 +7,7 @@
 * [Bot registration](get-started/creating-an-account.md)
 * [Installation](get-started/installation/README.md)
   * [Discord.js](get-started/installation/discord.js.md)
+  * [Discord.js](get-started/installation/discord4j.md)
 
 ## 📜 Legals
 
