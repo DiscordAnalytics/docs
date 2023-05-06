@@ -1,16 +1,16 @@
 ---
-description: Insallation guide for discord.js
+description: Insallation guide for java
 ---
 
-# Discord4J
+# JAVA
 
 ## Compatibility
 
-The package is compatible with Discord4J version 3.2.4 or higher
+The package is compatible with Discord4J version 3.2.4 or higher, Javacord version 3.8.0 or higher, and JDA version 5.0.0-beta.8 or higher.
 
 ## Dependency
 
-Let's install `discord-analytics-d4j`'s package :&#x20;
+Let's install `discord-analytics`'s package :&#x20;
 
 {% tabs %}
 {% tab title="Maven" %}
