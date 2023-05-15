@@ -42,7 +42,7 @@ The Content and Marks are provided in or through the Services "AS IS" for your p
 
 ### Your use of our Services
 
-Subject to your compliance, with these Legal Terms, including the "PROHIBED ACTIVITIES" section below, we grant you a non-exclusive, non-tranferable, revocable license to :&#x20;
+Subject to your compliance, with these Legal Terms, including the [PROHIBED ACTIVITIES](terms.md#5.-prohibed-activities) section below, we grant you a non-exclusive, non-tranferable, revocable license to :&#x20;
 
 * access the Services; and
 * download or print a copy of any portion of the Content
@@ -57,13 +57,13 @@ We reserve all rights not expressly granted to you in and to the Services, Conte
 
 Any breach of these Intellectual Property Rights will constitute a material breach of our Legal Terms and your right to use our Services will terminate immediately.
 
-Please review this section and the "PROHIBED ACTIVITIES" section carefully prior to using our Services to understand the (a) tights you give us and (b) obligations you have when post or upload any content through the Services.
+Please review this section and the [PROHIBED ACTIVITIES](terms.md#5.-prohibed-activities) section carefully prior to using our Services to understand the (a) tights you give us and (b) obligations you have when post or upload any content through the Services.
 
 **Submissions:** By directly sending us any question, comment, suggestion, idea, feedback, or other information about the Services ("Submissions"), you agree to assign to us all intellectual property rights in such Submission. You agree to shall own this Submission and be entitled to its unrestricted use and dissemination for any lawful purpose, commercial or otherwise, without acknowledgment or compensation to you.
 
 **You are esponsible for what you post or upload:** By sending us Submissions through any part of the Services you:
 
-* confirm that you have read ans agree with our "PROHIBED ACTIVITIES" and will not post, send, publish, upload, or transmit through the Services any Submission that is illegal, harassing, hateful, defamatory, obscene, bullying, abusive, discriminatory, threatening to any person or group, sexually, explicit, false, inaccurate, deceitful, or misleading;
+* confirm that you have read ans agree with our [PROHIBED ACTIVITIES](terms.md#5.-prohibed-activities) and will not post, send, publish, upload, or transmit through the Services any Submission that is illegal, harassing, hateful, defamatory, obscene, bullying, abusive, discriminatory, threatening to any person or group, sexually, explicit, false, inaccurate, deceitful, or misleading;
 * to the extent permissible by applicable law, waive any and all moral rights to any such Submission;
 * warrant that any such Submission are original to you or that you have the necessary rights and licenses to submit such Submissions and that you have full authority to grant us the above-mentioned rights in relation to your Submissions; and
 * warrant and represent that Submissions do not constitute confidential information.
@@ -87,3 +87,40 @@ If you provide any information that is untru, inaccurate, not current, or incomp
 ## 4. User registration
 
 You must be registered ot use the Services. To create an account, you must connect your Discord account. You agree to keep it (your Discord account) confidential and personnal and will be responsible for all use of your account and access token (generated on login). We reserve the right to delete or suspend an account with an inappropriate username.
+
+## 5. Prohibed Activities
+
+You may not access or use the Services for any purpose other than that for wich we make the Services available. The Services may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.
+
+As user of the Services, you agree not to :&#x20;
+
+* Systematically retrieve data or other content from the Services to create or compile, directly or indirectly, a collection, compilation, database or directory without written permission from us.
+* Trick, defraud, or mislead us and other users especially in any attempt to learn sensitive account information such as user passwords.
+* Circumvent, disable, or otherwise interfere with security-related features of the Services, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Services and/or the Content contained therein.
+* Disparage, tarnish, or otherwise harm, in our opinion, us and/or the Services.
+* Use any information obtained from the Services in order to harass, abuse, or harm another person.
+* Make improper use of our support services or submit false reports of abuse or misconduct.
+* Use the Services in a manner inconsistant with any applicable laws or regulations.
+* Engage in unauthorized framing of or linking to the Services.
+* Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party’s uninterrupted use and enjoyment of the Services or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Services.
+* Delete the copyright or other proprietary rights notice from any Content.
+* Attempt to impersonate another user or person or use the username of another user
+* Upload or transmit (or attempt to upload or to transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation, clear graphics interchange formats ("gifs"), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as "spyware" or "passive collection mechanisms" or "pcms").
+* Interfere with, disrupt, or create an undue burden on the Services or the networks or services connected to the Services.
+* Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Services to you.
+* Attempt to bypass a sanction or limitation set by the Services or our team.
+* Copy or adapt the Services' software, including but not limited to Flash, PHP, HTML, JavaScript, or other code.
+* Except as permitted by applicable law, decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Services.
+* Except as may be the result of standard search engine or Internet browser usage, use, launch, develop, or distribute any automated system, including without limitation, any spider, robot, cheat utility, scraper, or offline reader that accesses the Services, or use or launch any unauthorized script or other software.
+* Use a buying agent or purchasing agent to make purchases on the Services.
+* Make any unauthorized use of the Services, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.
+* Use the Services as part of any effort to compete with us or otherwise use the Services and/or the Content for any revenue-generating endeavor or commercial enterprise.
+* Use the Services to advertise or offer to sell goods and services.
+* Sell or otherwise transfer your profile.
+* Add a bot with only NSFW content.
+* Add a bot that violates any applicable law or the terms of use of any service external to us.
+
+## 6. Contribution license
+
+By submitting suggestions or other feedback regarding the Services, you agree that we can use and share such feedback for any purpose without compensation to you.
+
