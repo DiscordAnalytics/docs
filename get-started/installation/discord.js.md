@@ -10,7 +10,7 @@ The package is compatible with Discord.js v14 or higher
 
 ## Dependency
 
-Let's install `discord-analytics`'s package :&#x20;
+Let's install `discord-analytics`'s package :
 
 {% tabs %}
 {% tab title="NPM" %}
@@ -36,7 +36,9 @@ pnpm install discord-analytics
 
 {% tabs %}
 {% tab title="JavaScript" %}
-<pre class="language-javascript" data-overflow="wrap"><code class="lang-javascript">// Import Discord.js's client and intents
+{% code overflow="wrap" %}
+```javascript
+// Import Discord.js's client and intents
 const { Client, GatewayIntentBits.Guilds } = require("discord.js")
 // import discord-analytics
 const DiscordAnalytics, { LibType } = require("discord-analytics")
@@ -44,27 +46,29 @@ const DiscordAnalytics, { LibType } = require("discord-analytics")
 // Create Discord client
 const client = new Client();
 
-// Create Discord Analytics instance
-// Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
-const da = new DiscordAnalytics(client, LibType.DJS, {
-  trackInteractions: true,
-  trackMessageCreate: true,
-<strong>  trackMessageDelete: true,
-</strong>  trackGuildDelete: true,
-  trackGuildCreate: true,
-  trackUserCount: true
-}, "YOUR_API_TOKEN");
-
 // When Discord client is ready
 client.on('ready', () => {
-  // Start tracking selected events
-  da.trackEvents();
+  // Create Discord Analytics instance
+  // Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
+  const analytics = new DiscordAnalytics(client, LibType.DJS, {
+    trackGuilds: true,
+    trackGuildsLocale: true,
+    trackInteractions: true,
+    trackUserCount: true,
+    trackUserLanguage: true,
+  }, "YOUR_API_TOKEN");
+  
+  // start tracking selected events
+  analytics.trackEvents();
+
+  console.log("Bot is ready!");
 });
 
 // Login to Discord
 // Don't forget to replace token by your Discord bot token !
 client.login('token');
-</code></pre>
+```
+{% endcode %}
 {% endtab %}
 
 {% tab title="TypeScript" %}
@@ -77,21 +81,22 @@ import DiscordAnalytics, { LibType } from "discord-analytics";
 // Create Discord client
 const client = new Client();
 
-// Create Discord Analytics instance
-// Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
-const da = new DiscordAnalytics(client, LibType.DJS, {
-  trackInteractions: true,
-  trackMessageCreate: true,
-  trackMessageDelete: true,
-  trackGuildDelete: true,
-  trackGuildCreate: true,
-  trackUserCount: true
-}, "YOUR_API_TOKEN");
-
 // When Discord client is ready
 client.on('ready', () => {
-  // Start tracking selected events
-  da.trackEvents();
+  // Create Discord Analytics instance
+  // Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
+  const analytics = new DiscordAnalytics(client, LibType.DJS, {
+    trackGuilds: true,
+    trackGuildsLocale: true,
+    trackInteractions: true,
+    trackUserCount: true,
+    trackUserLanguage: true,
+  }, "YOUR_API_TOKEN");
+  
+  // start tracking selected events
+  analytics.trackEvents();
+
+  console.log("Bot is ready!");
 });
 
 // Login to Discord
