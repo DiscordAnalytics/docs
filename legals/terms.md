@@ -12,7 +12,7 @@ We operate the website [https://discordanalytics.xyz](https://discordanalytics.x
 
 Discord Analytics is an app to get stats of your Discord bot and make it better and adapted to its users.
 
-You can contact us by joining our [Discord server](https://discordanalytics.xyz/go/support) or by sending us [a mail](mailto:nolhan.dev@gmail.com).
+You can contact us by joining our [Discord server](https://discordanalytics.xyz/go/support) or by sending us [a mail](mailto:contact@discordanalytics.xyz).
 
 These Terms of Service constitute a legally binding agreement made between you and Discord Analytics, concerning your access to and use of the Services. You agree by accessing the Services, you have read, understood and agreed all of these Legal Terms.
 
@@ -186,4 +186,4 @@ These Legal Terms and any policies or operating rules posted by us on the Servic
 
 ## 21. Contact us
 
-In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at: [nolhan.dev@gmail.com](mailto:nolhan.dev@gmail.com) or by joining our [Discord server](https://discordanalytics.xyz/go/support).
+In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at: [contact@discordanalytics.xyz](mailto:contact@discordanalytics.xyz) or by joining our [Discord server](https://discordanalytics.xyz/go/support).
