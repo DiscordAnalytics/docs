@@ -1,8 +1,10 @@
 ---
 description: Insallation guide for java
+cover: ../../.gitbook/assets/banner.png
+coverY: 0
 ---
 
-# JAVA
+# Java
 
 ## Compatibility
 
@@ -10,11 +12,12 @@ The package is compatible with Discord4J version 3.2.4 or higher, Javacord versi
 
 ## Dependency
 
-Let's install `discord-analytics`'s package :&#x20;
+Let's install `discord-analytics`'s package :
 
 {% tabs %}
 {% tab title="Maven" %}
 Add to your `pom.xml` file this:
+
 ```xml
 <dependencies>
   <dependency>
@@ -25,8 +28,10 @@ Add to your `pom.xml` file this:
 </dependencies>
 ```
 {% endtab %}
+
 {% tab title="Gradle" %}
 Add to your `build.gradle` file this:
+
 ```gradle
 repositories {
   mavenCentral()
@@ -94,7 +99,8 @@ public class ExampleWithD4J {
 }
 ```
 {% endtab %}
-{% tab title="Javacord" %}
+
+{% tab title="JavaCord" %}
 ```java
 package example;
 
@@ -136,6 +142,7 @@ public class ExampleWithJavacord {
 }
 ```
 {% endtab %}
+
 {% tab title="JDA" %}
 ```java
 // Main class
@@ -156,6 +163,7 @@ public class ExampleWithJDA {
   }
 }
 ```
+
 ```java
 // ReadyListener class
 package example.jda;

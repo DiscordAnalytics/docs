@@ -1,5 +1,7 @@
 ---
 description: Insallation guide for discord.js
+cover: ../../.gitbook/assets/banner.png
+coverY: 0
 ---
 
 # Discord.js
@@ -41,7 +43,7 @@ pnpm install discord-analytics
 // Import Discord.js's client and intents
 const { Client, GatewayIntentBits.Guilds } = require("discord.js")
 // import discord-analytics
-const DiscordAnalytics, { LibType } = require("discord-analytics")
+const { LibType, default: DiscordAnalytics } = require("discord-analytics")
 
 // Create Discord client
 const client = new Client();

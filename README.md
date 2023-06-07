@@ -1,5 +1,7 @@
 ---
 description: Official documentation
+cover: .gitbook/assets/banner.png
+coverY: 0
 ---
 
 # 🏠 Home

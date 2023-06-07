@@ -1,5 +1,8 @@
 ---
 description: Here are Discord Analytics Terms of Service!
+cover: ../.gitbook/assets/banner.png
+coverY: 0
+layout: landing
 ---
 
 # Terms of Service
