@@ -1,5 +1,5 @@
 ---
-description: Installation guide for Eris.
+description: Installation guide for Eris
 cover: ../../.gitbook/assets/banner.png
 coverY: 0
 ---
