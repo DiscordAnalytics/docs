@@ -4,7 +4,7 @@
 
 ## 🔨 Get started
 
-* [Bot registration](get-started/creating-an-account.md)
+* [Bot registration](get-started/bot-registration.md)
 * [Installation](get-started/installation/README.md)
   * [Discord.js](get-started/installation/discord.js.md)
   * [Eris](get-started/installation/eris.md)
