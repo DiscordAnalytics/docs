@@ -8,7 +8,11 @@ coverY: 0
 
 ### Compatibility
 
-The package is compatible with Discord.js v0.17.2 or higher
+The package is compatible with Eris v0.17.2 or higher
+
+{% hint style="info" %}
+Please note that Eris doesn't support interactions locales. So the `trackUserLanguage` option is not supported for this package.
+{% endhint %}
 
 ### Dependency
 
