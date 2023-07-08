@@ -1,12 +1,14 @@
 ---
 description: Goals list and explainations
+cover: ../.gitbook/assets/banner.png
+coverY: 0
 ---
 
 # Goals
 
 On Discord Analytics, you can find a list of goals to make the adventure of your bot funnier !
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Goals page location</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/goals_list.png" alt=""><figcaption><p>Goals page location</p></figcaption></figure>
 
 {% hint style="danger" %}
 Please note that all this goals are based on your bot's current stats and that you may well lose some of them overnight!
