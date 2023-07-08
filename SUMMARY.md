@@ -19,3 +19,8 @@
 ***
 
 * [📦 Patch note](patch-note.md)
+
+## 📗 Dashboard Reference <a href="#dash-reference" id="dash-reference"></a>
+
+* [Goals](dash-reference/goals.md)
+* [Graphs reference](dash-reference/graphs-reference.md)
