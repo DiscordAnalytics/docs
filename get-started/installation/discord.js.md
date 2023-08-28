@@ -71,6 +71,14 @@ client.on('ready', () => {
 client.login('token');
 ```
 {% endcode %}
+
+{% hint style="info" %}
+If you use shards, please add the `sharded` option :&#x20;
+
+```javascript
+const analytics = new DiscordAnalytics(client, LibType.DJS, {/* options */}, "YOUR_API_TOKEN", false, true);
+```
+{% endhint %}
 {% endtab %}
 
 {% tab title="TypeScript" %}
@@ -115,3 +123,4 @@ To complete installation, please restart your bot.
 {% hint style="warning" %}
 On first token usage, bot's informations will be saved. To avoid distorting the statistics, you won't be able to reuse the same token for another bot.
 {% endhint %}
+

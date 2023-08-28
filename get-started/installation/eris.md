@@ -14,6 +14,10 @@ The package is compatible with Eris v0.17.2 or higher
 Please note that Eris doesn't support interactions locales. So the `trackUserLanguage` option is not supported for this package.
 {% endhint %}
 
+{% hint style="warning" %}
+Discord Analytics is not compatible with Eris shards.
+{% endhint %}
+
 ### Dependency
 
 Let's install `discord-analytics`'s package :
@@ -74,7 +78,7 @@ bot.connect();
 {% endcode %}
 
 {% hint style="info" %}
-To disable console warns, you can add the `disableErisWarnings option :`&#x20;
+To disable console warns, you can add the `disableErisWarnings option :`
 
 ```javascript
 const analytics = new DiscordAnalytics(client, LibType.ERIS, {/* options */}, "YOUR_API_TOKEN", true);
@@ -113,7 +117,7 @@ bot.connect();
 ```
 
 {% hint style="info" %}
-To disable console warns, you can add the `disableErisWarnings option :`&#x20;
+To disable console warns, you can add the `disableErisWarnings option :`
 
 ```typescript
 const analytics = new DiscordAnalytics(client, LibType.ERIS, {/* options */}, "YOUR_API_TOKEN", true);
