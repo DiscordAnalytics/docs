@@ -13,6 +13,7 @@ The package is compatible with Discord4J version 3.2.4 or higher, Javacord versi
 ## Dependency
 
 Let's install `discord-analytics`'s package :
+To get the latest version of the package please see this [page](https://github.com/DiscordAnalytics/java-package/releases)
 
 {% tabs %}
 {% tab title="Maven" %}
