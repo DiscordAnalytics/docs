@@ -18,7 +18,7 @@
 
 ***
 
-* [📦 Patch note](patch-note.md)
+* [📦 Changelog](changelog.md)
 
 ## 📗 Dashboard Reference <a href="#dash-reference" id="dash-reference"></a>
 
