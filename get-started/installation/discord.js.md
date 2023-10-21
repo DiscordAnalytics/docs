@@ -43,7 +43,7 @@ pnpm install discord-analytics
 // Import Discord.js's client and intents
 const { Client, GatewayIntentBits.Guilds } = require("discord.js")
 // import discord-analytics
-const { LibType, default: DiscordAnalytics } = require("discord-analytics")
+const { default: DiscordAnalytics } = require("discord-analytics/discordjs")
 
 // Create Discord client
 const client = new Client();
@@ -52,13 +52,18 @@ const client = new Client();
 client.on('ready', () => {
   // Create Discord Analytics instance
   // Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
-  const analytics = new DiscordAnalytics(client, LibType.DJS, {
-    trackGuilds: true,
-    trackGuildsLocale: true,
-    trackInteractions: true,
-    trackUserCount: true,
-    trackUserLanguage: true,
-  }, "YOUR_API_TOKEN");
+  const analytics = new DiscordAnalytics({
+    client: client,
+    eventsToTrack: {
+      trackGuilds: true,
+      trackGuildsLocale: true,
+      trackInteractions: true,
+      trackUserCount: true,
+      trackUserLanguage: true
+    },
+    apiToken: 'YOUR_API_TOKEN',
+    sharded: false
+  });
   
   // start tracking selected events
   analytics.trackEvents();
@@ -71,14 +76,6 @@ client.on('ready', () => {
 client.login('token');
 ```
 {% endcode %}
-
-{% hint style="info" %}
-If you use shards, please add the `sharded` option :&#x20;
-
-```javascript
-const analytics = new DiscordAnalytics(client, LibType.DJS, {/* options */}, "YOUR_API_TOKEN", false, true);
-```
-{% endhint %}
 {% endtab %}
 
 {% tab title="TypeScript" %}
@@ -86,7 +83,7 @@ const analytics = new DiscordAnalytics(client, LibType.DJS, {/* options */}, "YO
 // Import Discord.js's client and intents
 import { Client, GatewayIntentBits.Guilds } from "discord.js";
 // import discord-analytics
-import DiscordAnalytics, { LibType } from "discord-analytics";
+import DiscordAnalytics from "discord-analytics/discordjs";
 
 // Create Discord client
 const client = new Client();
@@ -95,13 +92,18 @@ const client = new Client();
 client.on('ready', () => {
   // Create Discord Analytics instance
   // Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
-  const analytics = new DiscordAnalytics(client, LibType.DJS, {
-    trackGuilds: true,
-    trackGuildsLocale: true,
-    trackInteractions: true,
-    trackUserCount: true,
-    trackUserLanguage: true,
-  }, "YOUR_API_TOKEN");
+  const analytics = new DiscordAnalytics({
+    client: client,
+    eventsToTrack: {
+      trackGuilds: true,
+      trackGuildsLocale: true,
+      trackInteractions: true,
+      trackUserCount: true,
+      trackUserLanguage: true
+    },
+    apiToken: 'YOUR_API_TOKEN',
+    sharded: false
+  });
   
   // start tracking selected events
   analytics.trackEvents();

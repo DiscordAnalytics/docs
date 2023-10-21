@@ -49,7 +49,7 @@ pnpm install discord-analytics
 {% code overflow="wrap" %}
 ```javascript
 const {Client, Constants, CommandInteraction, ComponentInteraction} from "eris";
-const {LibType, default: DiscordAnalytics} = require("../../lib");
+const {default: DiscordAnalytics} = require("discord-analytics/eris");
 
 // Create Eris client.
 // Don't forget to replace token by your Discord bot token !
@@ -58,13 +58,18 @@ const bot = new Client("token");
 bot.on("ready", () => {
   // Create Discord Analytics instance
   // Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
-  const analytics = new DiscordAnalytics(client, LibType.ERIS, {
-    trackGuilds: true,
-    trackGuildsLocale: true,
-    trackInteractions: true,
-    trackUserCount: true,
-    trackUserLanguage: false, // not supported
-  }, "YOUR_API_TOKEN");
+  const analytics = new DiscordAnalytics({
+    client: client,
+    eventsToTrack: {
+      trackGuilds: true,
+      trackGuildsLocale: true,
+      trackInteractions: true,
+      trackUserCount: true,
+      trackUserLanguage: false
+    },
+    apiToken: 'YOUR_API_TOKEN',
+    sharded: false
+  });
 
   // start tracking selected events
   analytics.trackEvents();
@@ -76,20 +81,12 @@ bot.on("ready", () => {
 bot.connect();
 ```
 {% endcode %}
-
-{% hint style="info" %}
-To disable console warns, you can add the `disableErisWarnings option :`
-
-```javascript
-const analytics = new DiscordAnalytics(client, LibType.ERIS, {/* options */}, "YOUR_API_TOKEN", true);
-```
-{% endhint %}
 {% endtab %}
 
 {% tab title="TypeScript" %}
 ```typescript
 import {Client, Constants, CommandInteraction, ComponentInteraction} from "eris";
-import DiscordAnalytics, {LibType} from "../../lib";
+import DiscordAnalytics from "discord-analytics/eris";
 
 // Create Eris client.
 // Don't forget to replace token by your Discord bot token !
@@ -98,13 +95,18 @@ const bot = new Client("token");
 bot.on("ready", () => {
   // Create Discord Analytics instance
   // Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
-  const analytics = new DiscordAnalytics(client, LibType.ERIS, {
-    trackGuilds: true,
-    trackGuildsLocale: true,
-    trackInteractions: true,
-    trackUserCount: true,
-    trackUserLanguage: false, // not supported
-  }, "YOUR_API_TOKEN");
+  const analytics = new DiscordAnalytics({
+    client: client,
+    eventsToTrack: {
+      trackGuilds: true,
+      trackGuildsLocale: true,
+      trackInteractions: true,
+      trackUserCount: true,
+      trackUserLanguage: false
+    },
+    apiToken: 'YOUR_API_TOKEN',
+    sharded: false
+  });
 
   // start tracking selected events
   analytics.trackEvents();
@@ -115,14 +117,6 @@ bot.on("ready", () => {
 // Login to Discord
 bot.connect();
 ```
-
-{% hint style="info" %}
-To disable console warns, you can add the `disableErisWarnings option :`
-
-```typescript
-const analytics = new DiscordAnalytics(client, LibType.ERIS, {/* options */}, "YOUR_API_TOKEN", true);
-```
-{% endhint %}
 {% endtab %}
 {% endtabs %}
 
