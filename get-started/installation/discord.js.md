@@ -41,7 +41,7 @@ pnpm install discord-analytics
 {% code overflow="wrap" %}
 ```javascript
 // Import Discord.js's client and intents
-const { Client, GatewayIntentBits.Guilds } = require("discord.js")
+const { Client } = require("discord.js")
 // import discord-analytics
 const { default: DiscordAnalytics } = require("discord-analytics/discordjs")
 
@@ -81,7 +81,7 @@ client.login('token');
 {% tab title="TypeScript" %}
 ```typescript
 // Import Discord.js's client and intents
-import { Client, GatewayIntentBits.Guilds } from "discord.js";
+import { Client } from "discord.js";
 // import discord-analytics
 import DiscordAnalytics from "discord-analytics/discordjs";
 
