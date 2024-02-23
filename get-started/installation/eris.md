@@ -11,7 +11,7 @@ coverY: 0
 The package is compatible with Eris v0.17.2 or higher
 
 {% hint style="info" %}
-Please note that Eris doesn't support interactions locales. So the `trackUserLanguage` option is not supported for this package.
+Please note that Eris doesn't support interactions locales. So some stats can be unavailable.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -48,7 +48,7 @@ pnpm install discord-analytics
 {% tab title="JavaScript" %}
 {% code overflow="wrap" %}
 ```javascript
-const {Client, Constants, CommandInteraction, ComponentInteraction} from "eris";
+const {Client} = require("eris");
 const {default: DiscordAnalytics} = require("discord-analytics/eris");
 
 // Create Eris client.
@@ -60,15 +60,7 @@ bot.on("ready", () => {
   // Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
   const analytics = new DiscordAnalytics({
     client: client,
-    eventsToTrack: {
-      trackGuilds: true,
-      trackGuildsLocale: true,
-      trackInteractions: true,
-      trackUserCount: true,
-      trackUserLanguage: false
-    },
-    apiToken: 'YOUR_API_TOKEN',
-    sharded: false
+    apiToken: 'YOUR_API_TOKEN'
   });
 
   // start tracking selected events
@@ -85,7 +77,7 @@ bot.connect();
 
 {% tab title="TypeScript" %}
 ```typescript
-import {Client, Constants, CommandInteraction, ComponentInteraction} from "eris";
+import {Client} from "eris";
 import DiscordAnalytics from "discord-analytics/eris";
 
 // Create Eris client.
@@ -97,15 +89,7 @@ bot.on("ready", () => {
   // Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
   const analytics = new DiscordAnalytics({
     client: client,
-    eventsToTrack: {
-      trackGuilds: true,
-      trackGuildsLocale: true,
-      trackInteractions: true,
-      trackUserCount: true,
-      trackUserLanguage: false
-    },
-    apiToken: 'YOUR_API_TOKEN',
-    sharded: false
+    apiToken: 'YOUR_API_TOKEN'
   });
 
   // start tracking selected events

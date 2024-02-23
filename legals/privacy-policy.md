@@ -47,15 +47,13 @@ We collect ONLY the following data :&#x20;
 * Guilds : Guilds locales and guilds count
 * Bot : Username, ID, avatar
 
-{% hint style="warning" %}
-If bot owner decide to disable some settings, associated data will not be collected.
+{% hint style="info" %}
+The bot's stats are visible only to its owner and the people designated by the owner and are COMPLETELY anonymous.
 {% endhint %}
-
-**Bot stats are only viewed by it's owner and are COMPLETLY anonymous.**
 
 ## VII. Contact
 
-If you have any questions regarding our privacy policy or if you wish to exercise your rights under the GDPR, you can contact us via email at \[[contact@discordanalytics.xyz](mailto:contact@discordanalytics.xyz)] or by joining our Discord server at \[[https://discordanalytics.xyz/go/support](https://discordanalytics.xyz/go/support)].
+If you have any questions regarding our privacy policy or if you wish to exercise your rights under the GDPR, you can contact us via email at [contact@discordanalytics.xyz](mailto:contact@discordanalytics.xyz) or by joining our Discord server at [https://discordanalytics.xyz/go/support](https://discordanalytics.xyz/go/support).
 
 We reserve the right to update this privacy policy at any time. Any changes will be indicated on this page, and the date of the last update will be modified accordingly. We encourage you to regularly review this policy to stay informed about how we protect your personal data.
 

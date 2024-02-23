@@ -68,8 +68,8 @@ These goals can't be classified in others categories.
 Goals that are replaced by `???` are secret goals !
 {% endhint %}
 
-| Goal title            | Unlock conditions                        | Difficulty |
-| --------------------- | ---------------------------------------- | ---------- |
-| All the stats for me  | Enable tracking for all available stats. | easy       |
-| ???                   | 🥖                                       | medium     |
-| ???                   | ???                                      | hard       |
+| Goal title            | Unlock conditions                                    | Difficulty |
+| --------------------- | ---------------------------------------------------- | ---------- |
+| All the stats for me  | Finish Discord Analytics' configuration on your bot. | easy       |
+| ???                   | 🥖                                                   | medium     |
+| ???                   | ???                                                  | hard       |

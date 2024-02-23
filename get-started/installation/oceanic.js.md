@@ -1,14 +1,20 @@
 ---
-description: Insallation guide for discord.js
+description: Insallation guide for oceanic.js
 cover: ../../.gitbook/assets/banner.png
 coverY: 0
 ---
 
-# Discord.js
+# Oceanic.js
 
 ## Compatibility
 
-The package is compatible with Discord.js v14 or higher
+The package is compatible with oceanic.js v1.9.0 or higher
+
+
+
+{% hint style="warning" %}
+Discord Analytics is not comptible with Oceanic.js shards.
+{% endhint %}
 
 ## Dependency
 
@@ -41,21 +47,23 @@ pnpm install discord-analytics
 {% code overflow="wrap" %}
 ```javascript
 // Import Discord.js's client and intents
-const { Client, IntentsBitField } = require("discord.js")
+const { Client } = require("oceanic.js")
 // import discord-analytics
-const { default: DiscordAnalytics } = require("discord-analytics/discordjs")
+const { default: DiscordAnalytics } = require("discord-analytics/oceanic")
 
 // Create Discord client
 const client = new Client({
-  intents: [IntentsBitField.Flags.Guilds] // This intent is required
-});
+  auth: "Bot <YOUR_BOT_TOKEN>",
+  gateway: {
+    intents: ["GUILDS"] // This intent is required
+  }
+})
 
 // Create Discord Analytics instance
 // Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
 const analytics = new DiscordAnalytics({
   client: client,
-  apiToken: 'YOUR_API_TOKEN',
-  sharded: false // Set it to true if your bot use shards
+  apiToken: 'YOUR_API_TOKEN'
 });
 
 // start tracking selected events
@@ -76,21 +84,23 @@ client.login('token');
 {% tab title="TypeScript" %}
 ```typescript
 // Import Discord.js's client and intents
-import { Client, IntentsBitField } from "discord.js";
+import { Client} from "oceanic.js";
 // import discord-analytics
-import DiscordAnalytics from "discord-analytics/discordjs";
+import DiscordAnalytics from "discord-analytics/oceanic";
 
 // Create Discord client
 const client = new Client({
-  intents: [IntentsBitField.Flags.Guilds] // This intent is required
-});
+  auth: "Bot <YOUR_BOT_TOKEN>",
+  gateway: {
+    intents: ["GUILDS"] // This intent is required
+  }
+})
 
 // Create Discord Analytics instance
 // Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
 const analytics = new DiscordAnalytics({
   client: client,
-  apiToken: 'YOUR_API_TOKEN',
-  sharded: false // Set it to true if your bot use shards
+  apiToken: 'YOUR_API_TOKEN'
 });
 
 // start tracking selected events

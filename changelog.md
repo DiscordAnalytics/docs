@@ -6,11 +6,45 @@ coverY: 0
 
 # 📦 Changelog
 
-{% hint style="info" %}
-Patch notes will be available on BETA's end!
-{% endhint %}
 
-## 1.0.0
+
+## 23/02/2024
+
+* We have updated the design of our website :&#x20;
+
+<div>
+
+<figure><img src=".gitbook/assets/screenshot_3_changelog_23_02_2024.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/screenshot_1_changelog_23_02_2024.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* We gave added a new graph about guilds' size ! More information [here](dash-reference/graphs-reference.md#distribution-of-guilds-by-size)
+* Discord Analytics is now compatible with [Oceanic.js](https://oceanic.ws/)
+* API has been reworked to make development easier.&#x20;
+* NodeJS packages have been updated to allow you to save performances by creating the events yourself. More information [here](get-started/advanced-usage/optimize-events.md) (Advanced users only)
+* Give access your teammates to your bot's stats by following our [new tutorial](get-started/advanced-usage/teams.md)
+* The problems scanner have been updated to warn you about more problems
+
+<div>
+
+<figure><img src=".gitbook/assets/screenshot_2_changelog_23_02_2024.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/screenshot_4_changelog_23_02_2024.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* To make it easier for you to communicate with support, we have added an option to send us all the information we need to help you solve your problem. When you are on the Dashboard, click on the logo three times.
+* Removed lotties on the home page to make it faster and conserve CPU/GPU resources
+* Linked Roles have been patched
+* Documentation is now fully completed
+
+## 30/09/2023
 
 * Discord Analytics BETA is now ended! We want to thank all beta testers and say hello to the new era of Discord bots;
 * Dashboard has now a beautiful homepage with feedback, your bots status, stats, and more;
