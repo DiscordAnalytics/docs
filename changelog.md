@@ -6,7 +6,13 @@ coverY: 0
 
 # 📦 Changelog
 
+## 27/02/2024
 
+* We have added three new graphs about interactions:
+
+<figure><img src=".gitbook/assets/screenshot_1_27_02_2024.png" alt=""><figcaption></figcaption></figure>
+
+* We have added some tooltips to help people who don't read de docs 😏
 
 ## 23/02/2024
 
