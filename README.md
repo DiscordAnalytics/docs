@@ -1,54 +1,54 @@
 ---
-description: Official documentation
+description: Documentation Officielle
 cover: .gitbook/assets/banner.png
 coverY: 0
 ---
 
-# 🏠 Home
+# 🏠 Accueil
 
-## Service Overview
+## Présentation du service
 
-Discord Analytics is THE tool for all Discord bot developers. Our service allows you to access numerous statistics about your bot. All in real-time and on an intuitive dashboard.
+Discord Analytics est L'OUTIL pour tous les développeurs de bots Discord. Notre service leur permett d'accéder à une grande quantité de statistiques à propos de leur bot. Le tout en temps réel et dans un tableau de bord intuitif.
 
-The service is constantly evolving. Currently, we offer a wide range of charts on interactions, servers, users, and even languages!
+Le service est en constante évolution. Actuellement, nous offrons une large gamme de graphique à propos des interactions, serveurs, utilisateurs, et même les langues !
 
-Compatible with a wide range of languages and libraries, you'll have no excuse to pass it by!
-
-***
-
-## Docs Overview
-
-In this documentation, you will find:
-
-* A complete installation guide for each of the libraries
-* Tutorials
-* List of all graphs and goals
-* Complete changelogs
-* Legal texts (Terms of Service/Privacy Policy)
-* And much more...
+Compatible avec bon nombre de librairies et languages, vous n'aurez aucune excuse pour passer à côté !
 
 ***
 
-## Contribute
+## Présentation de la documentation
 
-You can contribute to improving this documentation by clicking the "Edit on GitHub" button.
+Dans cette documentation, vous retrouverez :
 
-<figure><img src=".gitbook/assets/edit-on-github_location.png" alt=""><figcaption><p>"Edit on GitHub" button location</p></figcaption></figure>
+* Un guide d'installation complet pour chacun des librairies compatibles
+* Des tutoriels
+* La liste de tous les graphiques et objectifs
+* Tous les changelogs
+* Les mentions légales (Conditions d'Utilisation/olitique de Confidentialité)
+* Et bien plus...
 
-Or directly from the repository located just below:
+***
+
+## Contribuer
+
+Vous pouvez contribuer à cette documentation en cliquant sur le bouton "Edit on GitHub".
+
+<figure><img src=".gitbook/assets/edit-on-github_location.png" alt=""><figcaption><p>Localisation du bouton "Edit on GitHub"</p></figcaption></figure>
+
+Ou directement depuis le dépôt suivant :
 
 {% embed url="https://github.com/DiscordAnalytics/docs" %}
 
-## Useful links
+## Liens utiles
 
-* Website: [https://discordanalytics.xyz](https://discordanalytics.xyz)
+* Site Web : [https://discordanalytics.xyz](https://discordanalytics.xyz)
 * Documentation : [https://docs.discordanalytics.xyz](https://docs.discordanalytics.xyz)
-  * Get started: [https://docs.discordanalytics.xyz/get-started](broken-reference)
-  * Terms of Service: [https://discordanalytics.xyz/go/terms](legals/terms.md)
-  * Privacy Policy: [https://docs.discordanalytics.xyz/legals/privacy-policy](legals/privacy-policy.md)
-* Services Status: [https://status.discordanalytics.xyz](https://status.discordanalytics.xyz)
+  * Démarrer : [https://docs.discordanalytics.xyz/get-started](broken-reference)
+  * Conditions d'Utilisation : [https://discordanalytics.xyz/go/terms](legals/terms.md)
+  * Politique de Confidentialité : [https://docs.discordanalytics.xyz/legals/privacy-policy](legals/privacy-policy.md)
+* Statut des services: [https://status.discordanalytics.xyz](https://status.discordanalytics.xyz)
 
 ***
 
-* NPM package: [https://www.npmjs.com/package/discord-analytics](https://www.npmjs.com/package/discord-analytics)
-* Maven package: [https://github.com/DiscordAnalytics/java-package/packages/1839795](https://github.com/DiscordAnalytics/java-package/packages/1839795)
+* Paquet NPM : [https://www.npmjs.com/package/discord-analytics](https://www.npmjs.com/package/discord-analytics)
+* Paquet Maven: [https://github.com/DiscordAnalytics/java-package/packages/1839795](https://github.com/DiscordAnalytics/java-package/packages/1839795)
