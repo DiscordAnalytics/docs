@@ -1,5 +1,5 @@
 ---
-description: Insallation guide for discord.js
+description: Installation guide for discord.py
 cover: ../../.gitbook/assets/banner.png
 coverY: 0
 ---
@@ -12,7 +12,7 @@ The package is compatible with Discord.py v2.3.0 or higher
 
 ## Dependency
 
-Let's install `discord-analytics`'s package:&#x20;
+Let's install `discordanalytics`'s package:&#x20;
 
 ```sh
 pip install discordanalytics

@@ -1,5 +1,5 @@
 ---
-description: Insallation guide for discord.js
+description: Installation guide for discord.js
 cover: ../../.gitbook/assets/banner.png
 coverY: 0
 ---

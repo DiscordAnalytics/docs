@@ -29,7 +29,7 @@ coverY: 0
 </div>
 
 * In line with this new category, we have added a new objective: **Votes Operation**
-* Discord Analytics is now compatible with [**Discord.py**](get-started/installation/discord.js-1.md) 🎉
+* Discord Analytics is now compatible with [**Discord.py**](get-started/installation/discord.py.md) 🎉
 
 ## 27/02/2024
 

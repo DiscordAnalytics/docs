@@ -10,7 +10,7 @@
   * [Eris](get-started/installation/eris.md)
   * [Oceanic.js](get-started/installation/oceanic.js.md)
   * [Java](get-started/installation/java.md)
-  * [Discord.py](get-started/installation/discord.js-1.md)
+  * [Discord.py](get-started/installation/discord.py.md)
 * [Votes Integration](get-started/votes-integration.md)
 * [Advanced usage](get-started/advanced-usage/README.md)
   * [Teams](get-started/advanced-usage/teams.md)
