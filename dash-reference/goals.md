@@ -73,3 +73,4 @@ Goals that are replaced by `???` are secret goals !
 | All the stats for me  | Finish Discord Analytics' configuration on your bot. | easy       |
 | ???                   | 🥖                                                   | medium     |
 | ???                   | ???                                                  | hard       |
+| Votes operation       | Have at least 30 votes over the month                | easy       |

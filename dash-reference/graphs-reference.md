@@ -28,7 +28,15 @@ To determine these 5 interactions, the website adds the last month's stats and p
 
 ### Most received per type
 
+<div data-full-width="true">
+
 <figure><img src="../.gitbook/assets/most_received_interactions_per_type_preview.png" alt="" width="381"><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/most_used_commands_chart.png" alt="" width="390"><figcaption><p>Line graphs version</p></figcaption></figure>
+
+</div>
 
 These tree graphs show you the percentage of most received interactions, filtered per type (Commands, Components and Modals. To determine the 5 interactions, the website adds the last month's stats and picks the top 5.
 
@@ -90,6 +98,22 @@ You can see the evolution (in percentage) compared to the previous month if not 
 
 This pie chart allows you to see the percentage of your bot's users most used locales.
 
-{% hint style="info" %}
-The rest is coming soon!
-{% endhint %}
+## Votes
+
+### Total evolution
+
+<figure><img src="../.gitbook/assets/votes_evolution_chart.png" alt=""><figcaption></figcaption></figure>
+
+This graph gave you information about the evolution of received votes over the last 30 days.It mixes the votes from all compatible voting providers.
+
+### Distribution of votes providers
+
+<figure><img src="../.gitbook/assets/votes_providers_pie.png" alt=""><figcaption></figcaption></figure>
+
+Determine which voting provider is most used by your users.
+
+### Individual votes evolution
+
+<figure><img src="../.gitbook/assets/votes_evolution_all_chart.png" alt=""><figcaption></figcaption></figure>
+
+This are exactly the same graphs as [Total evolution](graphs-reference.md#total-evolution-3), but split between different votes providers.

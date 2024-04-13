@@ -6,13 +6,38 @@ coverY: 0
 
 # 📦 Changelog
 
+## XX/03/2024
+
+* As you requested, we have integrated a new category of statistics: votes
+
+<figure><img src=".gitbook/assets/screenshot_1_changelog_XX_03_2024.png" alt="" width="563"><figcaption></figcaption></figure>
+
+* We have added 3 graphs in this category. Check [Graphs reference](dash-reference/graphs-reference.md#votes) for more informations
+
+<div>
+
+<figure><img src=".gitbook/assets/votes_evolution_topgg_chart.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/votes_evolution_chart.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/votes_providers_pie.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* In line with this new category, we have added a new objective: **Votes Operation**
+* We have restructured our infrastructure to make it more scalable in the future.
+
 ## 27/02/2024
 
 * We have added three new graphs about interactions:
 
-<figure><img src=".gitbook/assets/screenshot_1_27_02_2024.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/screenshot_1_changelog_27_02_2024.png" alt=""><figcaption></figcaption></figure>
 
-* We have added some tooltips to help people who don't read de docs 😏
+* We have added some tooltips to help people who don't read the docs 😏
 
 ## 23/02/2024
 

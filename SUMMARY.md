@@ -10,10 +10,13 @@
   * [Eris](get-started/installation/eris.md)
   * [Oceanic.js](get-started/installation/oceanic.js.md)
   * [Java](get-started/installation/java.md)
+  * [Discord.py](get-started/installation/discord.js-1.md)
+* [Votes Integration](get-started/votes-integration.md)
 * [Advanced usage](get-started/advanced-usage/README.md)
   * [Teams](get-started/advanced-usage/teams.md)
   * [Using ESM (JavaScript)](get-started/advanced-usage/esm.md)
   * [Optimize events (JavaScript)](get-started/advanced-usage/optimize-events.md)
+  * [Receive votes](get-started/advanced-usage/receive-votes.md)
 
 ## 📜 Legals
 

@@ -33,7 +33,7 @@ In this documentation, you will find:
 
 You can contribute to improving this documentation by clicking the "Edit on GitHub" button.
 
-<figure><img src=".gitbook/assets/edit-on-github_location.png" alt=""><figcaption><p>"Edit on GitHub" button location</p></figcaption></figure>
+<figure><img src=".gitbook/assets/docs.discordanalytics.xyz_~_changes_zcDlbehO14pBtk5nHfRD_get-started_installation.png" alt=""><figcaption><p>"Edit on GitHub" button location</p></figcaption></figure>
 
 Or directly from the repository located just below:
 
