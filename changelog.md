@@ -6,7 +6,7 @@ coverY: 0
 
 # 📦 Changelog
 
-## XX/03/2024
+## 13/04/2024
 
 * As you requested, we have integrated a new category of statistics: votes
 
@@ -29,7 +29,7 @@ coverY: 0
 </div>
 
 * In line with this new category, we have added a new objective: **Votes Operation**
-* We have restructured our infrastructure to make it more scalable in the future.
+* Discord Analytics is now compatible with [**Discord.py**](get-started/installation/discord.js-1.md) 🎉
 
 ## 27/02/2024
 
