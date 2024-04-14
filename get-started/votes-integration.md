@@ -73,8 +73,8 @@ We apologize for the inconvenience caused.&#x20;
 
 <figure><img src="../.gitbook/assets/db_list_webhooks_section_completed.png" alt="" width="375"><figcaption></figcaption></figure>
 
-5. Click on "Save" then "Test Webhook". If everything is correct, you will receive a confirmation email.
-6. Enjoy your stats :)
+7. Click on "Save" then "Test Webhook". If everything is correct, you will receive a confirmation email.
+8. Enjoy your stats :)
 {% endtab %}
 {% endtabs %}
 
