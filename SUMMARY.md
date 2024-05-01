@@ -15,7 +15,7 @@
 * [Advanced usage](get-started/advanced-usage/README.md)
   * [Teams](get-started/advanced-usage/teams.md)
   * [Using ESM (JavaScript)](get-started/advanced-usage/esm.md)
-  * [Optimize events (JavaScript)](get-started/advanced-usage/optimize-events.md)
+  * [Optimize events (NodeJS)](get-started/advanced-usage/optimize-events.md)
   * [Receive votes](get-started/advanced-usage/receive-votes.md)
 
 ## 📜 Legals

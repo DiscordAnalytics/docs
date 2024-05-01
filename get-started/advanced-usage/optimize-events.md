@@ -4,7 +4,7 @@ cover: ../../.gitbook/assets/banner.png
 coverY: 0
 ---
 
-# Optimize events (JavaScript)
+# Optimize events (NodeJS)
 
 {% hint style="warning" %}
 DISCLAIMER: This section is intended for advanced users. For installation guide, please refer to the installation page:
@@ -12,7 +12,7 @@ DISCLAIMER: This section is intended for advanced users. For installation guide,
 [installation](../installation/ "mention")
 {% endhint %}
 
-In this example, we'll use DiscordJS, but you can use any library (JavaScript).
+In this example, we'll use DiscordJS, but you can use any supported library (NodeJS only).
 
 ***
 
@@ -55,6 +55,14 @@ const analytics = new DiscordAnalytics(/* ... */);
   await analytics.trackInteractions(interactions)
 
   // Your code goes here
+})
+
+client.on("guildCreate", async (guild) => {
+  await analytics.trackGuilds(guild, "create")
+})
+
+client.on("guildDelete", async (guild) => {
+  await analytics.trackGuilds(guild, "delete")
 })
 
 client.login('token');

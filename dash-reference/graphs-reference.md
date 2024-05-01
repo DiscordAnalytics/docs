@@ -74,6 +74,22 @@ This pie chart allows you to see the percentage of your bot's guilds most used l
 
 This graph allows you to see the size of the guilds that your bot is in as a percentage.
 
+### Additions and removals over the last 30 days
+
+<figure><img src="../.gitbook/assets/additions_and_removals_bars.png" alt=""><figcaption></figcaption></figure>
+
+This graph allows you to see how many times your bot has been added or removed from a guild.
+
+### Guilds Rankings
+
+<figure><img src="../.gitbook/assets/guilds_rankings.png" alt=""><figcaption></figcaption></figure>
+
+These rankings allow you to see which servers use your bot the most or those that have the most members.&#x20;
+
+{% hint style="warning" %}
+**These data are only visible once advanced statistics are enabled!**
+{% endhint %}
+
 ***
 
 ## Users
@@ -97,6 +113,12 @@ You can see the evolution (in percentage) compared to the previous month if not 
 <figure><img src="../.gitbook/assets/most_used_locales_pie_users_preview.png" alt=""><figcaption></figcaption></figure>
 
 This pie chart allows you to see the percentage of your bot's users most used locales.
+
+### Distribution of activity over the week
+
+<figure><img src="../.gitbook/assets/distribution_activity_over_week.png" alt=""><figcaption></figcaption></figure>
+
+Ce graphique vous permet quels jours de la semaine vos utilisateurs sont actifs. Il combine toutes les données du mois pour obtenir toutes les interactions d'un jour.
 
 ## Votes
 

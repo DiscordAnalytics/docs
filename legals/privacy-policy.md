@@ -40,6 +40,8 @@ You have the right to request access to your personal data, rectification of any
 
 This section is for users of bots tracked by Discord Analytics and their owners.
 
+### The bot hasn't enabled advanced stats
+
 We collect ONLY the following data :&#x20;
 
 * Interactions : Interactions names (components customId, commands name), interactions locales and interactions count
@@ -49,6 +51,16 @@ We collect ONLY the following data :&#x20;
 
 {% hint style="info" %}
 The bot's stats are visible only to its owner and the people designated by the owner and are COMPLETELY anonymous.
+{% endhint %}
+
+### The bot has enabled advanced stats
+
+We collect all the anonymous data mentioned above as well as the following data:
+
+* We associate interaction data with a server from which we collect the identifier, name, icon, and the number of members.
+
+{% hint style="info" %}
+If you would like to verify that a bot has enabled advanced stats, you can [contact us](privacy-policy.md#vii.-contact).
 {% endhint %}
 
 ## VII. Contact

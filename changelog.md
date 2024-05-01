@@ -6,6 +6,32 @@ coverY: 0
 
 # 📦 Changelog
 
+## 01/05/2024
+
+* We have developed a new advanced stats system. Once activated, you will have access to new data.
+
+{% hint style="info" %}
+This requires updating the `discord-analytics` package to its latest version.
+{% endhint %}
+
+* We have added two new graphs:
+
+<div data-full-width="false">
+
+<figure><img src=".gitbook/assets/additions_and_removals_bars.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/distribution_activity_over_week.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* We have made several changes to our code to make it easier to use.
+* You reported a bug to us regarding the deletion of a robot, and we are pleased to announce that it has been fixed!
+* **Fun fact:** If you have an avatar decoration, it will now be displayed on Discord Analytics 😏
+
+<figure><img src=".gitbook/assets/screenshot_1_changelog_01_05_2024.png" alt=""><figcaption></figcaption></figure>
+
 ## 13/04/2024
 
 * As you requested, we have integrated a new category of statistics: votes
