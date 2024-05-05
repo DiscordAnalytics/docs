@@ -100,7 +100,7 @@ To verify the origin of a webhook, our API adds your bot's Discord Analytics tok
 
 Here is a table listing each of the parameters included in the webhook body:&#x20;
 
-<table><thead><tr><th width="164">Property</th><th width="284">Value type</th><th>Comment</th></tr></thead><tbody><tr><td><code>botId</code></td><td>String</td><td>The Discord ID of the bot</td></tr><tr><td><code>voterId</code></td><td>String</td><td>The Discord ID of the user who voted</td></tr><tr><td><code>provider</code></td><td><code>topgg</code> or <code>botlistme</code> or <code>dblist</code> or <code>test</code></td><td><code>test</code> will succeed if the request is for testing purposes.</td></tr><tr><td><code>date</code></td><td>String</td><td>The date of the vote</td></tr></tbody></table>
+<table><thead><tr><th width="164">Property</th><th width="284">Value type</th><th>Comment</th></tr></thead><tbody><tr><td><code>botId</code></td><td>String</td><td>The Discord ID of the bot</td></tr><tr><td><code>voterId</code></td><td>String</td><td>The Discord ID of the user who voted</td></tr><tr><td><code>provider</code></td><td><code>topgg</code> or <code>botlistme</code> or <code>discordlist</code> or <code>dblist</code> or <code>test</code></td><td><code>test</code> will succeed if the request is for testing purposes.</td></tr><tr><td><code>date</code></td><td>String</td><td>The date of the vote</td></tr></tbody></table>
 
 ### Example request
 
