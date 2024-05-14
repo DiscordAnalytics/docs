@@ -79,7 +79,7 @@ We apologize for the inconvenience caused.
 {% tab title="Discord List" %}
 
 
-1. Login on [top.gg](https://top.gg)
+1. Login on [discordlist.gg](https://discordlist.gg)
 2. Go to your bot's page (`https://discordlist.gg/bot/:your-bot-id`)
 3. Go to "Manage" tab
 4. Go to "Webhooks" tab
