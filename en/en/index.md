@@ -1,39 +1,40 @@
-# Titre de section de niveau 1
+# Level 1 Section Title
 
-Paragraphe avec des styles de police : un mot **gras** and un mort _en italique_. ~~Le monde est plat.~~ Nous savons maintenant que le monde est rond.
+The paragraph with font styles: a **bold** word and an _italicized_ word. ~~The world is flat.~~ We now know that the world is round.
 
 ![Image Alt Text](/assets/images/image.jpg "Image")
 
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
-## Titre de section de niveau 2
+## Level 2 Section Title
 
-#### Liste ordonnée
+#### Ordered List
 
-1. Premier élément
-2. Second élément
-3. Troisième élément
-   1. Élément en retrait
-   2. Élément en retrait
-4. Quatrième élément
+1. First item
+2. Second item
+3. Third item
+    1. Indented item
+    2. Indented item
+4. Fourth item
 
 #### Unordered List
 
 - First item
 - Second item
 - Third item
-  - Indented item
-  - Indented item
+    - Indented item
+    - Indented item
 - Fourth item
 
 The paragraph.
 
 ### Level 3 Section Title
 
-| Syntax    | Description |   Test Text |
-| :-------- | :---------: | ----------: |
-| Header    |    Title    | Here's this |
-| Paragraph |     Text    |    And more |
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
 
 # Level 1 Section Title
 
@@ -45,16 +46,17 @@ The paragraph.
 
 > This is a nested blockquote.
 >
-> > This is a nested blockquote.
+>> This is a nested blockquote.
 
-[//]: # "This syntax works like a comment, and won't appear in any output."
+
+
+[//]: # (This syntax works like a comment, and won't appear in any output.)
 
 # Level 1 Section Title
 
 This is a link to the [Markdown article](https://en.wikipedia.org/wiki/Markdown){:target="_blank"}.
 
 [^1]: This is the first footnote.
-
 [^bignote]: Here's one with multiple paragraphs and code.
 
     Indent paragraphs to include them in the footnote.
@@ -65,10 +67,10 @@ This is a link to the [Markdown article](https://en.wikipedia.org/wiki/Markdown)
 
 ### Custom Containers
 
-:::info
+::: info
 This is an info box.
 :::
 
-:::tip Title
+::: tip Title
 This is a tip.
 :::
