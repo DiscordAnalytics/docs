@@ -8,8 +8,8 @@
     "path": "/get-started",
     "pages": [
       {
-        "title": "Get Started",
-        "path": "/get-started/get-started"
+        "title": "Installation",
+        "path": "/get-started/installation"
       }
     ]
   }
