@@ -10,12 +10,12 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 #### Liste ordonnée
 
-1. First item
-2. Second item
-3. Third item
-   1. Indented item
-   2. Indented item
-4. Fourth item
+1. Premier élément
+2. Second élément
+3. Troisième élément
+   1. Élément en retrait
+   2. Élément en retrait
+4. Quatrième élément
 
 #### Liste non ordonnée
 
