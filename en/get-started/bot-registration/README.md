@@ -3,11 +3,11 @@
 1. [First, copy your bot's ID.](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-)
 2. Next, go to the dashboard and click on "add bot"
 
-![Image](https://i.imgur.com/EZwqqgS.png)
+![Image](https://i.imgur.com/tEzxQv5.png)
 
 3. In the popup that appears, paste your bot's ID and accept the Terms of Use, then validate.
 
-![Image](https://i.imgur.com/iCOVfzH.png)
+![Image](https://i.imgur.com/knW5uCp.png)
 
 4. Once you have added your bot, you are redirected to this page :&#x20;
 
