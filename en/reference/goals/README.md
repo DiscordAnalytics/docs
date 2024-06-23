@@ -4,17 +4,13 @@ On Discord Analytics, you can find a list of goals to make the adventure of your
 
 <figure><img src="../.gitbook/assets/goals_list.png" alt=""><figcaption><p>Goals page location</p></figcaption></figure>
 
-{% hint style="danger" %}
-Please note that all this goals are based on your bot's current stats and that you may well lose some of them overnight!
-{% endhint %}
+[hint warn]Please note that all this goals are based on your bot's current stats and that you may well lose some of them overnight![endhind]
 
 ## Guilds goals
 
 To complete these goals, you must have a certain number of guilds.
 
-{% hint style="info" %}
-These goals are based on the day's stats and are precise.
-{% endhint %}
+[hint info]These goals are based on the day's stats and are precise.[endhind]
 
 | Goal title           | Required guilds count | Difficulty |
 | -------------------- | --------------------- | ---------- |
@@ -24,15 +20,19 @@ These goals are based on the day's stats and are precise.
 | Big bot              | 1'000                 | hard       |
 | Huge bot             | 10'000                | very hard  |
 
+***
+
 ### Users goals
 
 These goals require you to have a certain number of users.
 
-{% hint style="info" %}
-These goals are based on the day's stats and are not precise because the stats used add up the number of members of each guild (which can lead to duplication).
-{% endhint %}
+[hint info]These goals are based on the day's stats and are not precise because the stats used add up the number of members of each guild (which can lead to duplication).[endhind]
 
-<table><thead><tr><th width="231.33333333333331">Goal title</th><th>Required users count</th><th>Diffuculty</th></tr></thead><tbody><tr><td>Just a little for me</td><td>10'000</td><td>easy</td></tr><tr><td>Oh! Big servers</td><td>100'000</td><td>medium</td></tr><tr><td>Big servers + BOT = ♥</td><td>1'000'000</td><td>hard</td></tr></tbody></table>
+| Goal title             | Required users count | Difficulty |
+|------------------------|----------------------|------------|
+| Just a little for me   | 10'000               | easy       |
+| Oh! Big servers        | 100'000              | medium     |
+| Big servers + BOT = ♥  | 1'000'000            | hard       |
 
 ### Seniority goals
 
@@ -58,9 +58,7 @@ To complete these goals, your bot must have a certain average of interactions ov
 
 These goals can't be classified in others categories.
 
-{% hint style="info" %}
-Goals that are replaced by `???` are secret goals !
-{% endhint %}
+[hint info]Goals that are replaced by `???` are secret goals ![endhint]
 
 | Goal title            | Unlock conditions                                    | Difficulty |
 | --------------------- | ---------------------------------------------------- | ---------- |
