@@ -1,4 +1,4 @@
-# Level 1 Section Title
+# Titre de section de niveau 1
 
 Paragraphe avec des styles de police : un mot **gras** and un mort _en italique_. ~~Le monde est plat.~~ Nous savons maintenant que le monde est rond.
 
@@ -17,7 +17,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
    2. Indented item
 4. Fourth item
 
-#### Unordered List
+#### Liste non ordonnée
 
 - First item
 - Second item
