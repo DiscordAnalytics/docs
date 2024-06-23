@@ -25,13 +25,9 @@ In this documentation, you will find:
 
 ## Contribute
 
-You can contribute to improving this documentation by clicking the "Edit on GitHub" button.
+Read the dedicated page about [how to contribute to Discord Analytics](https://discordanalytics.xyz/contribute).
 
-<figure><img src=".gitbook/assets/docs.discordanalytics.xyz_~_changes_zcDlbehO14pBtk5nHfRD_get-started_installation.png" alt=""><figcaption><p>"Edit on GitHub" button location</p></figcaption></figure>
-
-Or directly from the repository located just below:
-
-{% embed url="https://github.com/DiscordAnalytics/docs" %}
+***
 
 ## Useful links
 
@@ -41,8 +37,6 @@ Or directly from the repository located just below:
   - Terms of Service: [https://discordanalytics.xyz/go/terms](legals/terms.md)
   - Privacy Policy: [https://docs.discordanalytics.xyz/legals/privacy-policy](legals/privacy-policy.md)
 - Services Status: [https://status.discordanalytics.xyz](https://status.discordanalytics.xyz)
-
-***
-
-- NPM package: [https://www.npmjs.com/package/discord-analytics](https://www.npmjs.com/package/discord-analytics)
-- Maven package: [https://github.com/DiscordAnalytics/java-package/packages/1839795](https://github.com/DiscordAnalytics/java-package/packages/1839795)
+- NPM package: https://www.npmjs.com/package/discord-analytics
+- Maven package: https://github.com/DiscordAnalytics/java-package/packages/1839795
+- PyPi package: https://pypi.org/project/discordanalytics
