@@ -1,74 +1,48 @@
-# Titre de section de niveau 1
+# 🏠 Home
 
-Paragraphe avec des styles de police : un mot **gras** and un mort _en italique_. ~~Le monde est plat.~~ Nous savons maintenant que le monde est rond.
+## Service Overview
 
-![Image Alt Text](/assets/images/image.jpg "Image")
+Discord Analytics is THE tool for all Discord bot developers. Our service allows you to access numerous statistics about your bot. All in real-time and on an intuitive dashboard.
 
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+The service is constantly evolving. Currently, we offer a wide range of charts on interactions, servers, users, and even languages!
 
-## Titre de section de niveau 2
+Compatible with a wide range of languages and libraries, you'll have no excuse to pass it by!
 
-#### Liste ordonnée
+***
 
-1. Premier élément
-2. Second élément
-3. Troisième élément
-   1. Élément en retrait
-   2. Élément en retrait
-4. Quatrième élément
+## Docs Overview
 
-#### Liste non ordonnée
+In this documentation, you will find:
 
-- First item
-- Second item
-- Third item
-  - Indented item
-  - Indented item
-- Fourth item
+- A complete installation guide for each of the libraries
+- Tutorials
+- List of all graphs and goals
+- Complete changelogs
+- Legal texts (Terms of Service/Privacy Policy)
+- And much more...
 
-The paragraph.
+***
 
-### Level 3 Section Title
+## Contribute
 
-| Syntax    | Description |   Test Text |
-| :-------- | :---------: | ----------: |
-| Header    |    Title    | Here's this |
-| Paragraph |     Text    |    And more |
+You can contribute to improving this documentation by clicking the "Edit on GitHub" button.
 
-# Level 1 Section Title
+<figure><img src=".gitbook/assets/docs.discordanalytics.xyz_~_changes_zcDlbehO14pBtk5nHfRD_get-started_installation.png" alt=""><figcaption><p>"Edit on GitHub" button location</p></figcaption></figure>
 
-> This is a blockquote.
+Or directly from the repository located just below:
 
-> This is also a blockquote.
->
-> The difference is that it has multiple paragraphs.
+{% embed url="https://github.com/DiscordAnalytics/docs" %}
 
-> This is a nested blockquote.
->
-> > This is a nested blockquote.
+## Useful links
 
-[//]: # "This syntax works like a comment, and won't appear in any output."
+- Website: [https://discordanalytics.xyz](https://discordanalytics.xyz)
+- Documentation : [https://docs.discordanalytics.xyz](https://docs.discordanalytics.xyz)
+  - Get started: [https://docs.discordanalytics.xyz/get-started](broken-reference)
+  - Terms of Service: [https://discordanalytics.xyz/go/terms](legals/terms.md)
+  - Privacy Policy: [https://docs.discordanalytics.xyz/legals/privacy-policy](legals/privacy-policy.md)
+- Services Status: [https://status.discordanalytics.xyz](https://status.discordanalytics.xyz)
 
-# Level 1 Section Title
+***
 
-This is a link to the [Markdown article](https://en.wikipedia.org/wiki/Markdown){:target="_blank"}.
-
-[^1]: This is the first footnote.
-
-[^bignote]: Here's one with multiple paragraphs and code.
-
-    Indent paragraphs to include them in the footnote.
-
-    `{ my code }`
-
-    Add as many paragraphs as you like.
-
-### Custom Containers
-
-:::info
-This is an info box.
-:::
-
-:::tip Title
-This is a tip.
-:::
+- NPM package: [https://www.npmjs.com/package/discord-analytics](https://www.npmjs.com/package/discord-analytics)
+- Maven package: [https://github.com/DiscordAnalytics/java-package/packages/1839795](https://github.com/DiscordAnalytics/java-package/packages/1839795)
