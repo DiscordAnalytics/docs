@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Homepage",
+    "path": "/"
+  },
+  {
+    "title": "Get Started",
+    "pages": [
+      {
+        "title": "Installation",
+        "path": "/get-started/installation"
+      }
+    ]
+  }
+]

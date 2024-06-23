@@ -1,21 +1,22 @@
-# Level 1 Section Title
 
-The paragraph with font styles: a **bold** word and an _italicized_ word. ~~The world is flat.~~ We now know that the world is round.
+# Titre de section de niveau 1
+
+Paragraphe avec des styles de police : un mot **gras** and un mort _en italique_. ~~Le monde est plat.~~ Nous savons maintenant que le monde est rond.
 
 ![Image Alt Text](/assets/images/image.jpg "Image")
 
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
-## Level 2 Section Title
+## Titre de section de niveau 2
 
-#### Ordered List
+#### Liste ordonnée
 
-1. First item
-2. Second item
-3. Third item
-   1. Indented item
-   2. Indented item
-4. Fourth item
+1. Premier élément
+2. Second élément
+3. Troisième élément
+   1. Élément en retrait
+   2. Élément en retrait
+4. Quatrième élément
 
 #### Unordered List
 
