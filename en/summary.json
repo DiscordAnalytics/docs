@@ -1,11 +1,15 @@
 [
   {
-    "title": "Homepage",
+    "title": "🏠 Home",
     "path": "/"
   },
   {
-    "title": "Get Started",
+    "title": "🔨 Get Started",
     "pages": [
+      {
+        "title": "Bot Registration",
+        "path": "/get-started/bot-registration"
+      },
       {
         "title": "Installation",
         "path": "/get-started/installation"
