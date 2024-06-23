@@ -8,7 +8,7 @@ We've provided some code snippets for your information to make it easier for you
 
 [cards]
 [card]
-**DiscordJS**
+<h3>DiscordJS</h3>
 JavaScript/TypeScript
 [endcard]
 [endcards]
