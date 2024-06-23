@@ -15,5 +15,18 @@
         "path": "/get-started/installation"
       }
     ]
+  },
+  {
+    "title": "📗 Dashboard Reference",
+    "pages": [
+      {
+        "title": "Goals",
+        "path": "/reference/goals"
+      },
+      {
+        "title": "Graphs",
+        "path": "/reference/graphs"
+      }
+    ]
   }
 ]
