@@ -12,7 +12,13 @@
       },
       {
         "title": "Installation",
-        "path": "/get-started/installation"
+        "path": "/get-started/installation",
+        "pages": [
+          {
+            "title": "Discord.js",
+            "path": "/get-started/installation/discord.js"
+          }
+        ]
       }
     ]
   },
