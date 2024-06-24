@@ -5,7 +5,19 @@
 **It's up to you to adapt these examples to your current code.**[endhint]
 
 [cards]
-[card]![CardImage](https://repository-images.githubusercontent.com/40484398/e305e980-cb80-11eb-9bb9-c5d3ec013658)
+[card]![CardImage](https://i.imgur.com/GHlKoc1.png)
 <h3>DiscordJS</h3>
 JavaScript/TypeScript[endcard]
+[card]![CardImage](https://i.imgur.com/GHlKoc1.png)
+<h3>Eris</h3>
+JavaScript/TypeScript[endcard]
+[card]![CardImage](https://i.imgur.com/GHlKoc1.png)
+<h3>Oceanic.js</h3>
+JavaScript/TypeScript[endcard]
+[card]![CardImage](https://i.imgur.com/GHlKoc1.png)
+<h3>Java</h3>
+Discord4J, Javacord, JDA[endcard]
+[card]![CardImage](https://i.imgur.com/GHlKoc1.png)
+<h3>Discord.py</h3>
+Python[endcard]
 [endcards]
