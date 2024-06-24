@@ -2,7 +2,7 @@
 
 On Discord Analytics, you can find a list of goals to make the adventure of your bot funnier !
 
-<figure><img src="../.gitbook/assets/goals_list.png" alt=""><figcaption><p>Goals page location</p></figcaption></figure>
+![Image](https://i.imgur.com/VlfOEmN.png)
 
 [hint warn]Please note that all this goals are based on your bot's current stats and that you may well lose some of them overnight![endhint]
 
