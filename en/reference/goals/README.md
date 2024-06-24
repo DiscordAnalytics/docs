@@ -10,7 +10,7 @@ On Discord Analytics, you can find a list of goals to make the adventure of your
 
 To complete these goals, you must have a certain number of guilds.
 
-[hint info]These goals are based on the day's stats and are precise.[endhind]
+[hint info]These goals are based on the day's stats and are precise.[endhint]
 
 | Goal title           | Required guilds count | Difficulty |
 | -------------------- | --------------------- | ---------- |
