@@ -4,13 +4,17 @@ On Discord Analytics, you can find a list of goals to make the adventure of your
 
 ![Image](https://i.imgur.com/VlfOEmN.png)
 
-[hint warn]Please note that all this goals are based on your bot's current stats and that you may well lose some of them overnight![endhint]
+:::warn
+Please note that all this goals are based on your bot's current stats and that you may well lose some of them overnight!
+:::
 
 ## Guilds goals
 
 To complete these goals, you must have a certain number of guilds.
 
-[hint info]These goals are based on the day's stats and are precise.[endhint]
+:::info
+These goals are based on the day's stats and are precise.
+:::
 
 | Goal title           | Required guilds count | Difficulty |
 | -------------------- | --------------------- | ---------- |
@@ -26,7 +30,9 @@ To complete these goals, you must have a certain number of guilds.
 
 These goals require you to have a certain number of users.
 
-[hint info]These goals are based on the day's stats and are not precise because the stats used add up the number of members of each guild (which can lead to duplication).[endhint]
+:::info
+These goals are based on the day's stats and are not precise because the stats used add up the number of members of each guild (which can lead to duplication).
+:::
 
 | Goal title             | Required users count | Difficulty |
 |------------------------|----------------------|------------|
@@ -64,7 +70,9 @@ To complete these goals, your bot must have a certain average of interactions ov
 
 These goals can't be classified in others categories.
 
-[hint info]Goals that are replaced by `???` are secret goals ![endhint]
+:::info
+Goals that are replaced by `???` are secret goals !
+:::
 
 | Goal title            | Unlock conditions                                    | Difficulty |
 | --------------------- | ---------------------------------------------------- | ---------- |
