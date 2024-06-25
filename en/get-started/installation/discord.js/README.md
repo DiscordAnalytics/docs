@@ -10,7 +10,7 @@ Let's install `discord-analytics`'s package :
 
 :::tabs 
 ::tab [NPM]
-```sh
+```shell
 npm install discord-analytics
 ```
 ::
@@ -30,9 +30,8 @@ pnpm install discord-analytics
 
 ## Installation
 
-{% tabs %}
-{% tab title="JavaScript" %}
-{% code overflow="wrap" %}
+:::tabs
+::tab [JavaScript]
 ```javascript
 // Import Discord.js's client and intents
 const { Client, IntentsBitField } = require("discord.js")
@@ -64,10 +63,9 @@ client.on('ready', () => {
 // Don't forget to replace token by your Discord bot token !
 client.login('token');
 ```
-{% endcode %}
-{% endtab %}
+::
 
-{% tab title="TypeScript" %}
+::tab [TypeScript]
 ```typescript
 // Import Discord.js's client and intents
 import { Client, IntentsBitField } from "discord.js";
@@ -99,18 +97,18 @@ client.on('ready', () => {
 // Don't forget to replace token by your Discord bot token !
 client.login('token');
 ```
-{% endtab %}
-{% endtabs %}
+::
+:::
 
 ### Advanced usage
 
-{% content-ref url="../advanced-usage/esm.md" %}
-[esm.md](../advanced-usage/esm.md)
-{% endcontent-ref %}
+:::link [Using ESM (Javascript)](/docs/main/advanced-usage/esm)
 
-{% content-ref url="../advanced-usage/optimize-events.md" %}
-[optimize-events.md](../advanced-usage/optimize-events.md)
-{% endcontent-ref %}
+:::
+
+:::link [Optimize events (NodeJS)](/docs/main/advanced-usage/optimize-events)
+
+:::
 
 ## Complete installation
 
