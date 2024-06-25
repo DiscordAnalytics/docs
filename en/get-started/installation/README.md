@@ -7,9 +7,11 @@ We've provided some code snippets for your information to make it easier for you
 :::
 
 :::cards
-::card [https://example.com](https://via.placeholder.com/150) Titre 1 --- Description 1 ::
-::card [https://example.com](https://via.placeholder.com/150) Titre 2 --- Description 2 ::
-::card [https://example.com](https://via.placeholder.com/150) Titre 3 --- Description 3 ::
+::card [/docs/main/get-started/installation/discord.js](https://i.imgur.com/GHlKoc1.png) Discord.js --- JavaScript/TypeScript ::
+::card [/docs/main/get-started/installation/eris](https://i.imgur.com/10WtUMU.png) Eris --- JavaScript/TypeScript ::
+::card [/docs/main/get-started/installation/oceanic.js](https://i.imgur.com/LODQ0vh.png) Oceanic.js --- JavaScript/TypeScript ::
+::card [/docs/main/get-started/installation/java](https://i.imgur.com/O0XXIbz.png) Java --- Discord4J, Javacord, JDA ::
+::card [/docs/main/get-started/installation/discord.py](https://i.imgur.com/pM0NRFB.png) Discord.py --- Python ::
 :::
 
 [cards][card /docs/main/get-started/installation/discord.js]![CardImage](https://i.imgur.com/GHlKoc1.png)
