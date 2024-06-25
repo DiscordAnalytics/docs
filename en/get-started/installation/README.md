@@ -6,6 +6,10 @@ We've provided some code snippets for your information to make it easier for you
 **It's up to you to adapt these examples to your current code.**
 :::
 
+:::cards
+:::card [https://google.fr](https://i.imgur.com/GHlKoc1.png) Here is a title ! --- And now an incredible description :::
+:::
+
 [cards][card /docs/main/get-started/installation/discord.js]![CardImage](https://i.imgur.com/GHlKoc1.png)
 <h3>DiscordJS</h3>
 JavaScript/TypeScript[endcard]
