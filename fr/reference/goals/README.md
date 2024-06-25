@@ -34,6 +34,8 @@ These goals require you to have a certain number of users.
 | Oh! Big servers       | 100'000              | medium     |
 | Big servers + BOT = ♥ | 1'000'000            | hard       |
 
+***
+
 ### Seniority goals
 
 Your bot must have been registered for some time to unlock these goals.
@@ -42,6 +44,8 @@ Your bot must have been registered for some time to unlock these goals.
 | --------------- | ------------- | ---------- |
 | Oh! That's nice | 1 month       | easy       |
 | Old member      | 12 month      | medium     |
+
+***
 
 ### Interaction average goals
 
@@ -53,6 +57,8 @@ To complete these goals, your bot must have a certain average of interactions ov
 | In search of popularity       | 1'000                       | medium     |
 | Too popular for you           | 20'000                      | hard       |
 | Explosion of interactions     | 50'000                      | very hard  |
+
+***
 
 ### Other goals
 
