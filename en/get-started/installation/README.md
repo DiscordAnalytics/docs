@@ -7,7 +7,9 @@ We've provided some code snippets for your information to make it easier for you
 :::
 
 :::cards
-:::card [https://google.fr](https://i.imgur.com/GHlKoc1.png) Here is a title ! --- And now an incredible description :::
+:::card [https://example.com](https://via.placeholder.com/150) Titre 1 --- Description 1 :::
+:::card [https://example.com](https://via.placeholder.com/150) Titre 2 --- Description 2 :::
+:::card [https://example.com](https://via.placeholder.com/150) Titre 3 --- Description 3 :::
 :::
 
 [cards][card /docs/main/get-started/installation/discord.js]![CardImage](https://i.imgur.com/GHlKoc1.png)
