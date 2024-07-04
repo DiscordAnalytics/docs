@@ -21,20 +21,20 @@ In this documentation, you will find:
 * Legal texts (Terms of Service/Privacy Policy)
 * And much more...
 
-***
+---
 
 ## Contribute
 Read the dedicated page about [how to contribute to Discord Analytics](https://discordanalytics.xyz/contribute).
 
-***
+---
 
 ## Useful links
 
 * Website: [https://discordanalytics.xyz](https://discordanalytics.xyz)
 * Documentation : [https://docs.discordanalytics.xyz](https://docs.discordanalytics.xyz)
-  * Get started: [https://docs.discordanalytics.xyz/get-started](broken-reference)
-  * Terms of Service: [https://discordanalytics.xyz/go/terms](legals/terms.md)
-  * Privacy Policy: [https://docs.discordanalytics.xyz/legals/privacy-policy](legals/privacy-policy.md)
+* Get started: [https://docs.discordanalytics.xyz/get-started](broken-reference)
+* Terms of Service: [https://discordanalytics.xyz/go/terms](legals/terms.md)
+* Privacy Policy: [https://docs.discordanalytics.xyz/legals/privacy-policy](legals/privacy-policy.md)
 * Services Status: [https://status.discordanalytics.xyz](https://status.discordanalytics.xyz)
 * NPM package: https://www.npmjs.com/package/discord-analytics
 * Maven package: https://github.com/DiscordAnalytics/java-package/packages/1839795
