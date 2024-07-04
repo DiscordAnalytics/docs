@@ -25,7 +25,7 @@ In this documentation, you will find:
 
 ## Contribute
 
-Read the dedicated page about [how to contribute to Discord Analytics](https://discordanalytics.xyz/contribute).
+Read the dedicated page about [how to contribute to Discord Analytics](/contribute).
 
 ---
 
