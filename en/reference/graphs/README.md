@@ -17,7 +17,7 @@ To determine these 5 interactions, the website adds stats for the selected time 
 
 ### Most received per type
 
-<div class="flex xl:max-w-3xl 2xl:max-w-5xl">
+<div class="flex flex-wrap gap-2 xl:max-w-3xl 2xl:max-w-5xl">
 ![Image](https://i.imgur.com/GgIRiKB.png)
 ![Image](https://i.imgur.com/gU2htPT.png)
 </div>
