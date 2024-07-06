@@ -96,6 +96,16 @@ bot.connect();
 ::
 :::endtabs
 
-### Complete installation
+## Advanced usage
+
+:::link [Using ESM (Javascript)](/docs/main/advanced-usage/esm)
+
+:::
+
+:::link [Optimize events (NodeJS)](/docs/main/advanced-usage/optimize-events)
+
+:::
+
+## Complete installation
 
 To complete installation, please restart your bot.
