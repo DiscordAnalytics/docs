@@ -88,7 +88,7 @@ We apologize for the inconvenience caused.
 7. Click on "Update Webhook". If everything is correct, you will receive a confirmation email.
 8. Enjoy your stats :)
 ::
-:::
+:::endtabs
 
 ## To Go Further
 
