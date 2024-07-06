@@ -98,7 +98,7 @@ client.on('ready', () => {
 client.login('token');
 ```
 ::
-:::
+:::endtabs
 
 ### Advanced usage
 
