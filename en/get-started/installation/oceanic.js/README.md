@@ -37,7 +37,7 @@ pnpm install discord-analytics
 :::tabs
 ::tab [JavaScript]
 ```javascript
-// Import Discord.js's client and intents
+// Import Oceanic.js's client
 const { Client } = require("oceanic.js")
 // import discord-analytics
 const { default: DiscordAnalytics } = require("discord-analytics/oceanic")
@@ -73,7 +73,7 @@ client.login('token');
 
 ::tab [TypeScript]
 ```typescript
-// Import Discord.js's client and intents
+// Import Oceanic.js's client
 import { Client} from "oceanic.js";
 // import discord-analytics
 import DiscordAnalytics from "discord-analytics/oceanic";
