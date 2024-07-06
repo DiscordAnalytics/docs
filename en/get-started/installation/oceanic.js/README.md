@@ -121,7 +121,3 @@ client.login('token');
 ## Complete installation
 
 To complete installation, please restart your bot.
-
-{% hint style="warning" %}
-On first token usage, bot's informations will be saved. To avoid distorting the statistics, you won't be able to reuse the same token for another bot.
-{% endhint %}
