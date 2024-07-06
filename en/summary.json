@@ -17,6 +17,10 @@
           {
             "title": "Discord.js",
             "path": "/get-started/installation/discord.js"
+          },
+          {
+            "title": "Eris",
+            "path": "/get-started/installation/eris"
           }
         ]
       },
