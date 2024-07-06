@@ -42,13 +42,13 @@ Want more? Ask us on our [Discord Server](https://discordanalytics.xyz/go/suppor
 
 ::tab [BotList.me]
 **Webhook endpoint:** `https://discordanalytics.xyz/api/bots/:your-bot-id/votes/webhooks/botlistme` (Replace `:your-bot-id` with your bot's ID)
-
+<br>
 **Webhook Secret:** your Discord Analytics token
-{% hint style="info" %}
+:::info
 We do not have a bot on BotList.me, which is why we are unable to provide you with a complete tutorial. If you are able to write it, we invite you to visit the GitHub repository of this documentation.
 
 We apologize for the inconvenience caused.
-{% endhint %}
+:::
 
 :::link [Edit votes-integration/README.md on GitHub](https://github.com/DiscordAnalytics/docs/tree/main/get-started/votes-integration/README.md)
 
@@ -88,7 +88,7 @@ We apologize for the inconvenience caused.
 7. Click on "Update Webhook". If everything is correct, you will receive a confirmation email.
 8. Enjoy your stats :)
 ::
-:::
+:::endtabs
 
 ## To Go Further
 
