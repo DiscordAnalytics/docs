@@ -100,7 +100,7 @@ client.login('token');
 ::
 :::endtabs
 
-### Advanced usage
+## Advanced usage
 
 :::link [Using ESM (Javascript)](/docs/main/advanced-usage/esm)
 
