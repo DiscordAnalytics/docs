@@ -42,7 +42,7 @@ Want more? Ask us on our [Discord Server](https://discordanalytics.xyz/go/suppor
 
 ::tab [BotList.me]
 **Webhook endpoint:** `https://discordanalytics.xyz/api/bots/:your-bot-id/votes/webhooks/botlistme` (Replace `:your-bot-id` with your bot's ID)
-
+<br>
 **Webhook Secret:** your Discord Analytics token
 :::info
 We do not have a bot on BotList.me, which is why we are unable to provide you with a complete tutorial. If you are able to write it, we invite you to visit the GitHub repository of this documentation.
