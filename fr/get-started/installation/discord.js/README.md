@@ -32,12 +32,12 @@ pnpm install discord-analytics
 ```
 
 ::
-:::
+:::endtabs
 
 ## Installation
 
 :::tabs
-::tab \[JavaScript]
+::tab [JavaScript]
 
 ```javascript
 // Import Discord.js's client and intents
