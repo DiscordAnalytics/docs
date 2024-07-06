@@ -29,6 +29,10 @@
           {
             "title": "Java",
             "path": "/get-started/installation/java"
+          },
+          {
+            "title": "Oceanic.js",
+            "path": "/get-started/installation/oceanic.js"
           }
         ]
       },
