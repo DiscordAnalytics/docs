@@ -26,7 +26,7 @@ yarn add discord-analytics
 pnpm install discord-analytics
 ```
 ::
-:::
+:::endtabs
 
 ## Installation
 
