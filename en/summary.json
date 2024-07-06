@@ -19,7 +19,11 @@
             "path": "/get-started/installation/discord.js"
           }
         ]
-      }
+      },
+      {
+        "title": "Votes Integration",
+        "path": "/get-started/votes-integration"
+      },
     ]
   },
   {
