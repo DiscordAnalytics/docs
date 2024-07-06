@@ -108,7 +108,7 @@ client.login('token');
 ```
 
 ::
-:::
+:::endtabs
 
 ### Advanced usage
 
