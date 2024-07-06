@@ -21,6 +21,10 @@
           {
             "title": "Eris",
             "path": "/get-started/installation/eris"
+          },
+          {
+            "title": "Discord.py",
+            "path": "/get-started/installation/discord.py"
           }
         ]
       },
