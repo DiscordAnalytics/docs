@@ -25,6 +25,10 @@
           {
             "title": "Discord.py",
             "path": "/get-started/installation/discord.py"
+          },
+          {
+            "title": "Java",
+            "path": "/get-started/installation/java"
           }
         ]
       },
@@ -35,7 +39,7 @@
     ]
   },
   {
-    "title": "📗 Dashboard Reference",
+    "title": "📗 Reference",
     "pages": [
       {
         "title": "Goals",
