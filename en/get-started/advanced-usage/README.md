@@ -1,6 +1,6 @@
 # Advanced usage
 
-A few articles on howto get the most out of Discord Analytics.
+A few articles on how to get the most out of Discord Analytics.
 
 :::cards
 ::card Teams --- What could be better than collaboration? Give whoever you want access to your robot's stats in total security! ::
