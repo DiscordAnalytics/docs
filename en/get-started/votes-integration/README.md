@@ -94,6 +94,6 @@ We apologize for the inconvenience caused.
 
 If you would like, you can receive a universal webhook for all the voting providers you have set up directly in your application! To do this, go to the following page:
 
-:::link [Receive votes](/docs/main/advanced-usage/receive-votes)
+:::link [Receive votes](/docs/main/get-started/advanced-usage/receive-votes)
 
 :::
