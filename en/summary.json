@@ -47,6 +47,10 @@
           {
             "title": "Receive Votes",
             "path": "/get-started/advanced-usage/receive-votes"
+          },
+          {
+            "title": "Optimize Events (NodeJS)",
+            "path": "/get-started/advanced-usage/optimize-events"
           }
         ]
       }
