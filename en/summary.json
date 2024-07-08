@@ -51,6 +51,10 @@
           {
             "title": "Optimize Events (NodeJS)",
             "path": "/get-started/advanced-usage/optimize-events"
+          },
+          {
+            "title": "Using ESM (JavaScript)",
+            "path": "/get-started/advanced-usage/esm"
           }
         ]
       }
