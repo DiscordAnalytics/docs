@@ -65,6 +65,23 @@
     ]
   },
   {
+    "title": "📜 Legals",
+    "pages": [
+      {
+        "title": "Terms of Service",
+        "path": "/legals/terms"
+      },
+      {
+        "title": "Privacy Policy",
+        "path": "/legals/privacy"
+      },
+      {
+        "title": "Appeal Sanction",
+        "path": "/legals/appeal-sanction"
+      }
+    ]
+  },
+  {
     "title": "📗 Reference",
     "pages": [
       {
