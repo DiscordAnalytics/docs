@@ -16,14 +16,8 @@ Teams allow you to authorize anyone to access your bot. However, the teammates h
 
 1. First, [copy the ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) of the user you want to give access to your bot.
 2. Then, go to your bot's settings
-3. 
-4. Paste the ID in the "Stats Access" section.
-
-![Image](https://i.imgur.com/i55JUgL.png)
-
-4. After clicking on ‘Add’, you will be asked to choose a way of sending the invitation to your future teammate.
-
-![Image](https://i.imgur.com/AGtiyIu.png)
+3. Paste the ID in the "Stats Access" section. ![Image](https://i.imgur.com/i55JUgL.png)
+4. After clicking on ‘Add’, you will be asked to choose a way of sending the invitation to your future teammate. ![Image](https://i.imgur.com/AGtiyIu.png)
 
 :::warn
 The email option requires the user to have a Discord Analytics account.
