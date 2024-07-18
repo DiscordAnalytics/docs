@@ -45,6 +45,10 @@
         "path": "/get-started/advanced-usage",
         "pages": [
           {
+            "title": "Teams",
+            "path": "/get-started/advanced-usage/teams"
+          },
+          {
             "title": "Receive Votes",
             "path": "/get-started/advanced-usage/receive-votes"
           },
