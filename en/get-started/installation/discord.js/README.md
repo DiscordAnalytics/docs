@@ -102,11 +102,11 @@ client.login('token');
 
 ## Advanced usage
 
-:::link [Using ESM (Javascript)](/docs/main/advanced-usage/esm)
+:::link [Using ESM (Javascript)](/docs/main/get-started/advanced-usage/esm)
 
 :::
 
-:::link [Optimize events (NodeJS)](/docs/main/advanced-usage/optimize-events)
+:::link [Optimize events (NodeJS)](/docs/main/get-started/advanced-usage/optimize-events)
 
 :::
 
