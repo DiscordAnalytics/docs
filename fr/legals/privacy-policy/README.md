@@ -26,7 +26,7 @@ Cloudflare Analytics is disabled on our website.
 
 ## IV. Data storage
 
-The data we collect is securely stored on our servers. We store locally (on your browser) only an encrypted token that allows interaction with our API. We take reasonable security measures to protect your data from unauthorized access or disclosure. All your data is hosted in France by [Neo-Serv](https://neo-serv.fr), a company registered under SIRET number [`894 937 937 00015`](https://www.societe.com/societe/monsieur-thibaut-lulinski-894937937.html).
+The data we collect is securely stored on our servers. We store locally (on your browser) only an encrypted token that allows interaction with our API. We take reasonable security measures to protect your data from unauthorized access or disclosure. All your data is hosted in France by [Neo-Serv](https://neo-serv.fr) and [OVH](https://www.ovhcloud.com), companies registered under SIREN numbers [`894 937 937`](https://www.pappers.fr/entreprise/lulinski-thibaut-894937937) and [`424 761 419`](https://www.pappers.fr/entreprise/ovh-424761419) respectively.
 
 ## V. User rights
 
