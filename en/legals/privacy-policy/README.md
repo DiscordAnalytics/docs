@@ -57,7 +57,7 @@ We collect all the anonymous data mentioned above as well as the following data:
 
 * We associate interaction data with a server from which we collect the identifier, name, icon, number of interactions with the bot and the number of members.
 
-:::
+:::info
 If you would like to verify that a bot has enabled advanced stats, you can [contact us](privacy-policy.md#vii.-contact).
 :::
 
