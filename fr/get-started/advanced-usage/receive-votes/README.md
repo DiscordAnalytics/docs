@@ -101,8 +101,8 @@ Here is a table listing each of the parameters included in the webhook body:
 
 | Property   | Value type                                              | Description                          |
 | ---------- | ------------------------------------------------------- | ------------------------------------ |
-| `botId`    | String                                                  | Your bot's ID                        |
-| `voterId`  | String                                                  | The voter's ID                       |
+| `bot_id`   | String                                                  | Your bot's ID                        |
+| `voter_id` | String                                                  | The voter's ID                       |
 | `provider` | `botlistme`, `dblist`, `discordlist`, `topgg` or `test` | The voting provider                  |
 | `date`     | String                                                  | The vote date                        |
 | `raw_data` | Object                                                  | The data sent by the voting provider |
@@ -112,8 +112,8 @@ Here is a table listing each of the parameters included in the webhook body:
 ```json
 {
   "body": {
-    "botId": "123456789012345678",
-    "voterId": "123456789012345678",
+    "bot_id": "123456789012345678",
+    "voter_id": "123456789012345678",
     "provider": "topgg",
     "date": "2021-01-01T00:00:00.000Z",
     "raw_data": {
