@@ -11,6 +11,12 @@ Teams allow you to authorize anyone to access your bot. However, the teammates h
 | See bot's stats           | ✅                    |
 | Edit team                 | ❌                    |
 | Delete bot                | ❌                    |
+| See bot's achievements    | ❌                    |
+| Edit bot's achievements   | ❌                    |
+
+:::warn
+For the latest package versions, the team is synchronised with the discord.dev bot's team.
+:::
 
 ## Edit teammates list
 
