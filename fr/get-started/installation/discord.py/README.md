@@ -1,12 +1,12 @@
 # Discord.py
 
-## Compatibility
+## Compatibilité
 
-The package is compatible with Discord.py v2.3.0 or higher
+Le package est compatible avec Discord.py v2.3.0 ou supérieur
 
-## Dependency
+## Dépendance
 
-Let's install `discordanalytics`'s package:&#x20
+Nous allons installer le package `discord-analytics`
 
 ```sh
 pip install discordanalytics
@@ -32,6 +32,6 @@ analytics.track_events()
 client.run('TOKEN')
 ```
 
-## Complete installation
+## Terminer l'installation
 
-To complete installation, please restart your bot.
+Pour terminer l'installation, veuillez redémarrer votre bot.
