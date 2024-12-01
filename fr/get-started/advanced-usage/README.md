@@ -1,10 +1,10 @@
-# Advanced usage
+# Usage avancé
 
-A few articles on how to get the most out of Discord Analytics.
+Quelques articles sur la façon de tirer le meilleur de Discord Analytics.
 
 :::cards
-::card [/docs/main/get-started/advanced-usage/teams] Teams --- What could be better than collaboration? Give whoever you want access to your robot's stats in total security! ::
-::card [/docs/main/get-started/advanced-usage/esm] Using ESM (Javascript) --- Are you using ESModules in your project? No problem, you'll just need to adapt your code. ::
-::card [/docs/main/get-started/advanced-usage/optimize-events] Optimize events (Javascript) --- Save performance by avoiding having to declare the same event twice! ::
-::card [/docs/main/get-started/advanced-usage/receive-votes] Receive votes --- Setup a webhook to receive an universal webhook in your app! ::
+::card [/docs/main/get-started/advanced-usage/teams] Équipes --- Quoi de mieux que la collaboration ? Donnez à ceux que vous voulez accéder aux statistiques de votre robot en toute sécurité ! ::
+::card [/docs/main/get-started/advanced-usage/esm] Utiliser ESM (Javascript) --- Utilisez-vous ESModules dans votre projet ? Pas de problème, vous aurez juste besoin d'adapter votre code. ::
+::card [/docs/main/get-started/advanced-usage/optimize-events] Optimiser les événements (Javascript) --- Économisez des performances en évitant d'avoir à déclarer le même événement deux fois ! ::
+::card [/docs/main/get-started/advanced-usage/receive-votes] Recevoir des votes --- Configurer un webhook pour recevoir un webhook universel dans votre application ! ::
 :::
