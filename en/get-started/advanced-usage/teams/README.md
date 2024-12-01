@@ -14,7 +14,7 @@ Teams allow you to authorize anyone to access your bot. However, the teammates h
 | See bot's achievements    | ❌                    |
 | Edit bot's achievements   | ❌                    |
 
-:::warn
+:::info
 For the latest package versions, the team is synchronised with the discord.dev bot's team.
 :::
 
