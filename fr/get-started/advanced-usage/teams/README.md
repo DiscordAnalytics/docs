@@ -1,35 +1,35 @@
-# Teams
+# Équipes
 
 ## Introduction
 
-Teams allow you to authorize anyone to access your bot. However, the teammates have access restrictions:
+Les équipes vous permettent d'autoriser n'importe qui à accéder aux statistiques de votre bot. Cependant, les membres d'une équipe ont des restrictions d'accès :
 
-| Permission                                  | Allowed for teammates |
-| ------------------------------------------- | --------------------- |
-| Get bot's informations                      | ✅                     |
-| Get & regen bot's token | ❌                     |
-| See bot's stats                             | ✅                     |
-| Edit team                                   | ❌                     |
-| Delete bot                                  | ❌                     |
-| See bot's achievements                      | ❌                     |
-| Edit bot's achievements                     | ❌                     |
+| Permission                             | Autorisé pour les coéquipiers |
+| -------------------------------------- | ----------------------------- |
+| Obtenir les informations du bot        | ✅                             |
+| Récupérer et régénérer le token du bot | ❌                             |
+| Voir les statistiques du bot           | ✅                             |
+| Modifier l'équipe                      | ❌                             |
+| Supprimer le bot                       | ❌                             |
+| Voir les succès du bot                 | ✅                             |
+| Modifier les succès du bot             | ❌                             |
 
 :::info
-For the latest package versions, the team is synchronised with the discord.dev bot's team.
+Pour les dernières versions de paquets, l'équipe est synchronisée avec l'équipe du bot discord.dev.
 :::
 
-## Edit teammates list
+## Modifier l'équipe
 
-- First, [copy the ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) of the user you want to give access to your bot.
-- Then, go to your bot's settings
-- Paste the ID in the "Stats Access" section.
+- Tout d'abord, [copiez l'ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) de l'utilisateur que vous voulez donner l'accès à votre bot.
+- Ensuite, allez dans les paramètres de votre bot
+- Collez l'ID dans la section "Accès aux statistiques".
 
 ![Image](https://i.imgur.com/i55JUgL.png)
 
-- After clicking on ‘Add’, you will be asked to choose a way of sending the invitation to your future teammate.
+- Après avoir cliqué sur « Ajouter », il vous sera demandé de choisir un moyen d’envoyer l’invitation à votre futur coéquipier.
 
 ![Image](https://i.imgur.com/AGtiyIu.png)
 
 :::warn
-The email option requires the user to have a Discord Analytics account.
+L'option e-mail nécessite que l'utilisateur ait un compte Discord Analytics.
 :::
