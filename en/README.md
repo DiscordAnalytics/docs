@@ -16,8 +16,7 @@ In this documentation, you will find:
 
 * A complete installation guide for each of the libraries
 * Tutorials
-* List of all graphs and goals
-* Complete changelogs
+* List of all graphs
 * Legal texts (Terms of Service/Privacy Policy)
 * And much more...
 

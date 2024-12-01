@@ -11,7 +11,7 @@ Teams allow you to authorize anyone to access your bot. However, the teammates h
 | See bot's stats           | ✅                    |
 | Edit team                 | ❌                    |
 | Delete bot                | ❌                    |
-| See bot's achievements    | ❌                    |
+| See bot's achievements    | ✅                    |
 | Edit bot's achievements   | ❌                    |
 
 :::info

@@ -1,9 +1,7 @@
 # Installation
 
 :::info
-We've provided some code snippets for your information to make it easier for you to understand how to integrate Discord Analytics into your project.
-
-**C'est à vous d'adapter ces exemples à votre code actuel.**
+We've provided some code snippets for your information to make it easier for you to understand how to integrate Discord Analytics into your project. **C'est à vous d'adapter ces exemples à votre code actuel.**
 :::
 
 :::cards
