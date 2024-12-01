@@ -67,7 +67,7 @@ We apologize for the inconvenience caused.
 ![Image](https://i.imgur.com/L9iqvdv.png)
 
 5. Paste the following url in the "Webhook URL" field: `https://discordanalytics.xyz/api/bots/:your-bot-id/votes/webhooks/dblist` (Replace `:your-bot-id` with your bot's ID)
-6. Paste your Discord Analytics token in the "Webhook Secret" field for more informations)
+6. Paste your Discord Analytics token in the "Webhook Secret" field
 
 ![Image](https://i.imgur.com/WfDZ7Wz.png)
 
