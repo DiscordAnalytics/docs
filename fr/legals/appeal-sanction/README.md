@@ -1,19 +1,19 @@
-# Appeal sanction
+# Faire appel d'une sanction
 
-First, join [our Discord server](https://discordanalytics.xyz/go/support) and go to #contact-us
+Premièrement, rejoignez [notre serveur Discord](https://discordanalytics.xyz/go/support) et rendez-vous dans le salon #contact-us
 
 ![](https://i.imgur.com/IMRielZ.png)
 
-In the select menu, select "I want to appeal a sanction"
+Dans le menu, sélectionnez "I want to appeal a sanction"
 
 ![](https://i.imgur.com/oennmiN.png)
 
-Select a reason
+Sélectionnez un motif
 
 ![](https://i.imgur.com/lUKUL3J.png)
 
-Complete the form
+Remplissez le formulaire
 
 ![](https://i.imgur.com/RFk26GI.png)
 
-And wait a moderator !
+Et attendez qu'un modérateur vous réponde !
