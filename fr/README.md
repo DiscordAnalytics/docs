@@ -1,42 +1,41 @@
-# 🏠 Home
+# 🏠 Accueil
 
-## Service Overview
+## Aperçu du Service
 
-Discord Analytics is THE tool for all Discord bot developers. Our service allows you to access numerous statistics about your bot. All in real-time and on an intuitive dashboard.
+Discord Analytics est l'outil idéal pour tous les développeurs de bot Discord. Notre service vous permet d'accéder à de nombreuses statistiques sur votre bot. Le tout en temps réel et sur un tableau de bord intuitif.
 
-The service is constantly evolving. Currently, we offer a wide range of charts on interactions, servers, users, and even languages!
+Le service est en constante évolution. Actuellement, nous offrons une large gamme de graphiques sur les interactions, les serveurs, les utilisateurs et même les langues!
 
-Compatible with a wide range of languages and libraries, you'll have no excuse to pass it by!
+Compatible avec un large éventail de langues et de bibliothèques, vous n'aurez aucune excuse pour le passer !
 
 ***
 
-## Docs Overview
+## Aperçu de la documentation
 
-In this documentation, you will find:
+Dans cette documentation, vous trouverez :
 
-- A complete installation guide for each of the libraries
-- Tutorials
-- List of all graphs and goals
-- Complete changelogs
-- Legal texts (Terms of Service/Privacy Policy)
-- And much more...
-
----
-
-## Contribute
-
-Read the dedicated page about [how to contribute to Discord Analytics](/contribute).
+- Un guide d'installation complet pour chacune des librairies
+- Des tutoriels
+- List of all graphs
+- Textes légaux (Conditions d'Utilisation/Politique de Confidentialité)
+- Et bien plus encore...
 
 ---
 
-## Useful links
+## Contribuer
 
-- Website: [https://discordanalytics.xyz](https://discordanalytics.xyz)
+Lisez la page dédiée sur [comment contribuer à Discord Analytics](/contribute).
+
+---
+
+## Liens utiles
+
+- Site Web: [https://discordanalytics.xyz](https://discordanalytics.xyz)
 - Documentation : [https://docs.discordanalytics.xyz](https://docs.discordanalytics.xyz)
-- Get started: [https://docs.discordanalytics.xyz/get-started](broken-reference)
-- Terms of Service: [https://discordanalytics.xyz/go/terms](legals/terms.md)
-- Privacy Policy: [https://docs.discordanalytics.xyz/legals/privacy-policy](legals/privacy-policy.md)
-- Services Status: [https://status.discordanalytics.xyz](https://status.discordanalytics.xyz)
-- NPM package: https://www.npmjs.com/package/discord-analytics
-- Maven package: https://github.com/DiscordAnalytics/java-package/packages/1839795
-- PyPi package: https://pypi.org/project/discordanalytics
+- Pour commencer: [https://docs.discordanalytics.xyz/get-started](broken-reference)
+- Conditions d'utilisation : [https://discordanalytics.xyz/go/terms](legals/terms.md)
+- Politique de confidentialité: [https://docs.discordanalytics.xyz/legals/privacy-policy](legals/privacy-policy.md)
+- Statut des services : [https://status.discordanalytics.xyz](https://status.discordanalytics.xyz)
+- Paquet NPM : https://www.npmjs.com/package/discord-analytics
+- Paquet Maven : https://github.com/DiscordAnalytics/java-package/packages/1839795
+- Paquet PyPi : https://pypi.org/project/discordanalytics

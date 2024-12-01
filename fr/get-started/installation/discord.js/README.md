@@ -1,12 +1,12 @@
 # Discord.js
 
-## Compatibility
+## Compatibilité
 
-The package is compatible with Discord.js v14 or higher
+Le package est compatible avec Discord.js v14 ou supérieur
 
-## Dependency
+## Dépendance
 
-Let's install `discord-analytics`'s package :
+Nous allons installer le package `discord-analytics` :
 
 :::tabs
 ::tab \[NPM]
@@ -40,34 +40,34 @@ pnpm install discord-analytics
 ::tab [JavaScript]
 
 ```javascript
-// Import Discord.js's client and intents
+// Importer le Client et des Intents de Discord.js
 const { Client, IntentsBitField } = require("discord.js")
-// import discord-analytics
+// Importer discord-analytics
 const { default: DiscordAnalytics } = require("discord-analytics/discordjs")
 
-// Create Discord client
+// Créer le client Discord.js
 const client = new Client({
-  intents: [IntentsBitField.Flags.Guilds] // This intent is required
+  intents: [IntentsBitField.Flags.Guilds] // Cet Intent est requis
 });
 
-// Create Discord Analytics instance
-// Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
+// Créer une instance Discord Analytics
+// N'oubliez pas de remplacer YOUR_API_TOKEN par votre token Discord Analytics
 const analytics = new DiscordAnalytics({
   client: client,
   apiToken: 'YOUR_API_TOKEN',
-  sharded: false // Set it to true if your bot use shards
+  sharded: false // Remplacez par true si votre bot utilise les shards
 });
 
-// start tracking selected events
+// Commencer à tracker les tous les évènements
 analytics.trackEvents();
 
-// When Discord client is ready
+// Lorsque le client Discord.js est prêt
 client.on('ready', () => {
   console.log("Bot is ready!");
 });
 
-// Login to Discord
-// Don't forget to replace token by your Discord bot token !
+// Se connecter à Discord
+// N'oubliez pas de remplacer token par votre token Discord !
 client.login('token');
 ```
 
@@ -76,50 +76,50 @@ client.login('token');
 ::tab [TypeScript]
 
 ```typescript
-// Import Discord.js's client and intents
-import { Client, IntentsBitField } from "discord.js";
-// import discord-analytics
-import DiscordAnalytics from "discord-analytics/discordjs";
+// Importer le Client et des Intents de Discord.js
+import { Client, IntentsBitField } from "discord.js"
+// Importer discord-analytics
+import DiscordAnalytics from "discord-analytics/discordjs"
 
-// Create Discord client
+// Créer le client Discord.js
 const client = new Client({
-  intents: [IntentsBitField.Flags.Guilds] // This intent is required
+  intents: [IntentsBitField.Flags.Guilds] // Cet Intent est requis
 });
 
-// Create Discord Analytics instance
-// Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
+// Créer une instance Discord Analytics
+// N'oubliez pas de remplacer YOUR_API_TOKEN par votre token Discord Analytics
 const analytics = new DiscordAnalytics({
   client: client,
   apiToken: 'YOUR_API_TOKEN',
-  sharded: false // Set it to true if your bot use shards
+  sharded: false // Remplacez par true si votre bot utilise les shards
 });
 
-// start tracking selected events
+// Commencer à tracker les tous les évènements
 analytics.trackEvents();
 
-// When Discord client is ready
+// Lorsque le client Discord.js est prêt
 client.on('ready', () => {
   console.log("Bot is ready!");
 });
 
-// Login to Discord
-// Don't forget to replace token by your Discord bot token !
+// Se connecter à Discord
+// N'oubliez pas de remplacer token par votre token Discord !
 client.login('token');
 ```
 
 ::
-:::endtabs
+:::
 
-## Advanced usage
+## Usage avancé
 
-:::link [Using ESM (Javascript)](/docs/main/get-started/advanced-usage/esm)
+:::link [Utiliser ESM (Javascript)](/docs/main/get-started/advanced-usage/esm)
 
 :::
 
-:::link [Optimize events (NodeJS)](/docs/main/get-started/advanced-usage/optimize-events)
+:::link [Optimiser les évènements (NodeJS)](/docs/main/get-started/advanced-usage/optimize-events)
 
 :::
 
-## Complete installation
+## Terminer l'installation
 
-To complete installation, please restart your bot.
+Pour terminer l'installation, veuillez redémarrer votre bot.
