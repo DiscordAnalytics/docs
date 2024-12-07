@@ -89,7 +89,8 @@ We apologize for the inconvenience caused.
 7. Click on "Update Webhook". If everything is correct, you will receive a confirmation email.
 8. Enjoy your stats :)
 ::
-::tab
+
+::tab [Discordscom]
 1. Login on [discords.com](https://discords.com)
 2. Go to your bot's settings
 3. Paste the following url in the "Webhook URL" field: `https://discordanalytics.xyz/api/bots/:your-bot-id/votes/webhooks/discordscom` (Replace `:your-bot-id` with your bot's ID)
