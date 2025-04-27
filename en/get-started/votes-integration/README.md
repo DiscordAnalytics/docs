@@ -12,6 +12,7 @@ Discord Analytics is compatible with the following votes providers:
 | [BotList.me](https://botlist.me)               | 🏗️Compatible (but may contain bugs) |
 | [Discord Bot List](https://discordbotlist.com) | ✅ Fully compatible                   |
 | [Discord List](https://discordlist.gg)         | ✅ Fully compatible                   |
+| [Discords.com](https://discords.com)         | ✅ Fully compatible                   |
 
 :::warn
 Want more? Ask us on our [Discord Server](https://discordanalytics.xyz/go/support) ;)
@@ -87,6 +88,15 @@ We apologize for the inconvenience caused.
 
 7. Click on "Update Webhook". If everything is correct, you will receive a confirmation email.
 8. Enjoy your stats :)
+::
+
+::tab [Discordscom]
+1. Login on [discords.com](https://discords.com)
+2. Go to your bot's settings
+3. Paste the following url in the "Webhook URL" field: `https://discordanalytics.xyz/api/bots/:your-bot-id/votes/webhooks/discordscom` (Replace `:your-bot-id` with your bot's ID)
+4. Paste your Discord Analytics token in the "Webhook Authorization" field
+5. Click on "Update Webhook". If everything is correct, you will receive a confirmation email.
+6. Enjoy your stats :)
 ::
 :::endtabs
 
