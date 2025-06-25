@@ -8,3 +8,4 @@ Quelques articles sur la façon de tirer le meilleur de Discord Analytics.
 ::card [/docs/main/get-started/advanced-usage/optimize-events] Optimiser les événements (Javascript) --- Économisez des performances en évitant d'avoir à déclarer le même événement deux fois ! ::
 ::card [/docs/main/get-started/advanced-usage/receive-votes] Recevoir des votes --- Configurer un webhook pour recevoir un webhook universel dans votre application ! ::
 :::
+
