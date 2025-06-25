@@ -25,3 +25,4 @@ Here is what you can do with a copied achievement:
 | Delete the achievement               | ✅                               |
 | Edit the achievement                 | ❌                               |
 | Publish the achievement to the store | ❌                               |
+

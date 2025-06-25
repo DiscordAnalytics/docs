@@ -40,7 +40,7 @@ Vous en voulez plus ? Demandez-nous sur notre [serveur Discord](https://discorda
 
 7. Cliquez sur "Save" puis sur "Send a Test". Si tout est correct, vous recevrez un e-mail de confirmation.
 8. Profitez de vos stats :)
-   ::
+  ::
 
 ::tab [BotList.me]
 **Webhook endpoint:** `https://discordanalytics.xyz/api/bots/:your-bot-id/votes/webhooks/botlistme` (Replace `:your-bot-id` with your bot's ID) <br>
@@ -75,7 +75,7 @@ Nous vous prions de nous excuser pour la gêne occasionnée.
 
 7. Cliquez sur "Save" puis sur "Test Webhook". Si tout est correct, vous recevrez un e-mail de confirmation.
 8. Profitez de vos stats :)
-   ::
+  ::
 
 ::tab [Discord List]
 
@@ -90,7 +90,7 @@ Nous vous prions de nous excuser pour la gêne occasionnée.
 
 7. Cliquez sur "Update Webhook". Si tout est correct, vous recevrez un e-mail de confirmation.
 8. Enjoy your stats :)
-   ::
+  ::
 
 ::tab [Discordscom]
 
@@ -100,8 +100,8 @@ Nous vous prions de nous excuser pour la gêne occasionnée.
 4. Paste your Discord Analytics token in the "Webhook Authorization" field
 5. Click on "Update Webhook". If everything is correct, you will receive a confirmation email.
 6. Profitez de vos stats :)
-   ::
-   :::endtabs
+  ::
+  :::endtabs
 
 ## Pour aller plus loin
 
