@@ -59,6 +59,10 @@
           {
             "title": "Using ESM (JavaScript)",
             "path": "/get-started/advanced-usage/esm"
+          },
+          {
+            "title": "Custom Events",
+            "path": "/get-started/advanced-usage/custom-events"
           }
         ]
       }
