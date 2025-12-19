@@ -2,17 +2,17 @@
 
 On Discord Analytics, you can find a list of achievements to make the adventure of your bot funnier !
 
-![Image](https://i.imgur.com/Mvvtk7x.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/reference/achievements/page_overview.png)
 
 ## Creating an achievement
 
 First, click on the "+" button
 
-![Image](https://i.imgur.com/62ar0Ay.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/reference/achievements/create_step_1.png)
 
 Then, enter the details of your achievements (blue square) or browse the Achievement Store (red square)
 
-![Image](https://i.imgur.com/tskWiQV.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/reference/achievements/create_step_2.png)
 
 ## The Achievement store
 
