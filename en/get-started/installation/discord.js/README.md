@@ -52,7 +52,7 @@ const analytics = new DiscordAnalytics({
 });
 
 // When Discord client is ready
-client.on('ready', async () => {
+client.on('clientReady', async () => {
   await analytics.init();
   analytics.trackEvents();
   console.log("Bot is ready!");
@@ -85,7 +85,7 @@ const analytics = new DiscordAnalytics({
 });
 
 // When Discord client is ready
-client.on('ready', async () => {
+client.on('clientReady', async () => {
   await analytics.init();
   analytics.trackEvents();
   console.log("Bot is ready!");
