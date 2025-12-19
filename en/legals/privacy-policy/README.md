@@ -71,4 +71,6 @@ If you have any questions regarding our privacy policy or if you wish to exercis
 
 We reserve the right to update this privacy policy at any time. Any changes will be indicated on this page, and the date of the last update will be modified accordingly. We encourage you to regularly review this policy to stay informed about how we protect your personal data.
 
+---
+
 **LAST UPDATE : 19 December 2025**
