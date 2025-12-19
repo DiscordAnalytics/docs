@@ -7,9 +7,9 @@ We've provided some code snippets for your information to make it easier for you
 :::
 
 :::cards
-::card [/docs/main/get-started/installation/discord.js](https://i.imgur.com/WiVzrys.png) Discord.js --- JavaScript/TypeScript ::
-::card [/docs/main/get-started/installation/eris](https://i.imgur.com/10WtUMU.png) Eris --- JavaScript/TypeScript ::
-::card [/docs/main/get-started/installation/oceanic.js](https://i.imgur.com/LODQ0vh.png) Oceanic.js --- JavaScript/TypeScript ::
-::card [/docs/main/get-started/installation/java](https://i.imgur.com/O0XXIbz.png) Java --- Discord4J, Javacord, JDA ::
-::card [/docs/main/get-started/installation/discord.py](https://i.imgur.com/pM0NRFB.png) Discord.py --- Python ::
+::card [/docs/main/get-started/installation/discord.js](https://r2.discordanalytics.xyz/images/docs/get-started/installation/djs_banner.png) Discord.js --- JavaScript/TypeScript ::
+::card [/docs/main/get-started/installation/eris](https://r2.discordanalytics.xyz/images/docs/get-started/installation/eris_banner.png) Eris --- JavaScript/TypeScript ::
+::card [/docs/main/get-started/installation/oceanic.js](https://r2.discordanalytics.xyz/images/docs/get-started/installation/oceanic_banner.png) Oceanic.js --- JavaScript/TypeScript ::
+::card [/docs/main/get-started/installation/java](https://r2.discordanalytics.xyz/images/docs/get-started/installation/java_banner.png) Java --- Discord4J, Javacord, JDA ::
+::card [/docs/main/get-started/installation/discord.py](https://r2.discordanalytics.xyz/images/docs/get-started/installation/discordpy_banner.png) Discord.py --- Python ::
 :::

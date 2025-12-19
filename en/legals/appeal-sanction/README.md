@@ -1,19 +1,19 @@
 # Appeal sanction
 
-First, join [our Discord server](https://discordanalytics.xyz/go/support) and go to #contact-us
+First, join [our Discord server](https://discordanalytics.xyz/support) and go to #contact-us
 
-![](https://i.imgur.com/IMRielZ.png)
+![](https://r2.discordanalytics.xyz/images/docs/legals/appeal-sanction/appeal_step_1.png)
 
 In the select menu, select "I want to appeal a sanction"
 
-![](https://i.imgur.com/oennmiN.png)
+![](https://r2.discordanalytics.xyz/images/docs/legals/appeal-sanction/appeal_step_2.png)
 
 Select a reason
 
-![](https://i.imgur.com/lUKUL3J.png)
+![](https://r2.discordanalytics.xyz/images/docs/legals/appeal-sanction/appeal_step_3.png)
 
 Complete the form
 
-![](https://i.imgur.com/RFk26GI.png)
+![](https://r2.discordanalytics.xyz/images/docs/legals/appeal-sanction/appeal_step_4.png)
 
 And wait a moderator !

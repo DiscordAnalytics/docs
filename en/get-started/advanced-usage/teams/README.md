@@ -24,11 +24,11 @@ For the latest package versions, the team is synchronised with the discord.dev b
 - Then, go to your bot's settings
 - Paste the ID in the "Stats Access" section.
 
-![Image](https://i.imgur.com/i55JUgL.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/teams/edit_step_1.png)
 
 - After clicking on ‘Add’, you will be asked to choose a way of sending the invitation to your future teammate.
 
-![Image](https://i.imgur.com/AGtiyIu.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/teams/edit_step_2.png)
 
 :::warn
 The email option requires the user to have a Discord Analytics account.
