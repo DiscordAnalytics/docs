@@ -28,7 +28,11 @@ Cloudflare Analytics is disabled on our website.
 
 ## IV. Data storage
 
-The data we collect is securely stored on our servers. We store locally (on your browser) only an encrypted token that allows interaction with our API. We take reasonable security measures to protect your data from unauthorized access or disclosure. All your data is hosted in France by [Neo-Serv](https://neo-serv.fr) and [OVH](https://www.ovhcloud.com), companies registered under SIREN numbers [`894 937 937`](https://www.pappers.fr/entreprise/lulinski-thibaut-894937937) and [`424 761 419`](https://www.pappers.fr/entreprise/ovh-424761419) respectively.
+The data we collect is securely stored on our servers. We store locally (on your browser) only an encrypted token that allows interaction with our API. We take reasonable security measures to protect your data from unauthorized access or disclosure. All your data is hosted in Europe by:
+ - [Neo-Serv](https://neo-serv.fr) (France): apps & logs
+ - [AWS](https://aws.com) (France): Database
+ - [Cloudflare](https://www.cloudflare.com) (Europe): Images
+ - Self-hosted: Plausible
 
 ## V. User rights
 
@@ -67,4 +71,4 @@ If you have any questions regarding our privacy policy or if you wish to exercis
 
 We reserve the right to update this privacy policy at any time. Any changes will be indicated on this page, and the date of the last update will be modified accordingly. We encourage you to regularly review this policy to stay informed about how we protect your personal data.
 
-**LAST UPDATE : 18 July 2024**
+**LAST UPDATE : 19 December 2025**
