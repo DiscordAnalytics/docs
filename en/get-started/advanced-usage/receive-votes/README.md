@@ -58,13 +58,13 @@ npm run deploy
 
 Log in to your Cloudflare account, then return to your terminal. Once the deployment is complete, retrieve the URL and open it in your browser to verify that the deployment was successful.
 
-![Image](https://i.imgur.com/rVdqs31.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/receive-votes/terminal_screenshot.png)
 
 ### Registering webhook on Discord Analytics
 
 Login to Discord Analytics dashboard, then go to your bot's settings. Scroll to the "Votes Webhook" section
 
-![Image](https://i.imgur.com/aP96t7G.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/receive-votes/webhook_field.png)
 
 Paste your URL in the field and add `/webhook` at the end.
 
@@ -80,7 +80,7 @@ This section of the page is designed for advanced users who want to integrate th
 
 ### How does it work?
 
-![Image](https://i.imgur.com/2YDKEAI.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/receive-votes/operating_diagram.png)
 
 When a user votes for your bot on a bot list, the bot list sends a POST request to the Discord Analytics webhook. Our API save the vote, if you have set up a webhook, it will send a POST request to your app.
 
