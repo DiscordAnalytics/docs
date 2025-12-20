@@ -14,13 +14,13 @@ Discord Analytics is not compatible with Eris shards.
 
 ## Dependency
 
-Let's install `discord-analytics`'s package :
+Let's install `@discordanalytics/eris`'s package :
 
 :::tabs
 ::tab \[NPM]
 
 ```sh
-npm install discord-analytics
+npm install @discordanalytics/eris
 ```
 
 ::
@@ -28,7 +28,7 @@ npm install discord-analytics
 ::tab [Yarn]
 
 ```bash
-yarn add discord-analytics
+yarn add @discordanalytics/eris
 ```
 
 ::
@@ -36,7 +36,7 @@ yarn add discord-analytics
 ::tab [PNPM]
 
 ```bash
-pnpm install discord-analytics
+pnpm install @discordanalytics/eris
 ```
 
 ::
@@ -49,19 +49,21 @@ pnpm install discord-analytics
 
 ```javascript
 const {Client} = require("eris");
-const {default: DiscordAnalytics} = require("discord-analytics/eris");
+const {default: DiscordAnalytics} = require("@discordanalytics/eris");
 
 // Create Eris client.
 // Don't forget to replace token by your Discord bot token !
 const bot = new Client("token");
 
-bot.on("ready", () => {
-  // Create Discord Analytics instance
-  // Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
-  const analytics = new DiscordAnalytics({
-    client: client,
-    apiToken: 'YOUR_API_TOKEN'
-  });
+// Create Discord Analytics instance
+// Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
+const analytics = new DiscordAnalytics({
+  client: bot,
+  api_key: 'YOUR_API_TOKEN'
+});
+
+bot.on("ready", async () => {
+  await analytics.init();
 
   // start tracking selected events
   analytics.trackEvents();
@@ -79,19 +81,21 @@ bot.connect();
 
 ```typescript
 import {Client} from "eris";
-import DiscordAnalytics from "discord-analytics/eris";
+import DiscordAnalytics from "@discordanalytics/eris";
 
 // Create Eris client.
 // Don't forget to replace token by your Discord bot token !
 const bot = new Client("token");
 
-bot.on("ready", () => {
-  // Create Discord Analytics instance
-  // Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
-  const analytics = new DiscordAnalytics({
-    client: client,
-    apiToken: 'YOUR_API_TOKEN'
-  });
+// Create Discord Analytics instance
+// Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
+const analytics = new DiscordAnalytics({
+  client: bot,
+  api_key: 'YOUR_API_TOKEN'
+});
+
+bot.on("ready", async () => {
+  await analytics.init();
 
   // start tracking selected events
   analytics.trackEvents();
