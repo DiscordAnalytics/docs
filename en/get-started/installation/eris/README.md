@@ -14,7 +14,7 @@ Discord Analytics is not compatible with Eris shards.
 
 ## Dependency
 
-Let's install `discord-analytics`'s package :
+Let's install `@discordanalytics/eris`'s package :
 
 :::tabs
 ::tab [NPM]
