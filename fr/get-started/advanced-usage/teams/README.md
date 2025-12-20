@@ -24,11 +24,11 @@ Pour les dernières versions de paquets, l'équipe est synchronisée avec l'équ
 - Ensuite, allez dans les paramètres de votre bot
 - Collez l'ID dans la section "Accès aux statistiques".
 
-![Image](https://i.imgur.com/i55JUgL.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/teams/edit_step_1.png)
 
 - Après avoir cliqué sur « Ajouter », il vous sera demandé de choisir un moyen d’envoyer l’invitation à votre futur coéquipier.
 
-![Image](https://i.imgur.com/AGtiyIu.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/teams/edit_step_2.png)
 
 :::warn
 L'option e-mail nécessite que l'utilisateur ait un compte Discord Analytics.
