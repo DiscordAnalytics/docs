@@ -6,24 +6,24 @@ The package is compatible with Discord.js v14 or higher
 
 ## Dependency
 
-Let's install `discord-analytics`'s package :
+Let's install `@discordanalytics/discordjs`'s package :
 
 :::tabs 
 ::tab [NPM]
 ```shell
-npm install discord-analytics
+npm install @discordanalytics/discordjs
 ```
 ::
 
 ::tab [YARN]
 ```bash
-yarn add discord-analytics
+yarn add @discordanalytics/discordjs
 ```
 ::
 
 ::tab [PNPM]
 ```bash
-pnpm install discord-analytics
+pnpm install @discordanalytics/discordjs
 ```
 ::
 :::endtabs
@@ -36,7 +36,7 @@ pnpm install discord-analytics
 // Import Discord.js's client and intents
 const { Client, IntentsBitField } = require("discord.js")
 // import discord-analytics
-const { default: DiscordAnalytics } = require("discord-analytics/discordjs")
+const { default: DiscordAnalytics } = require("@discordanalytics/discordjs")
 
 // Create Discord client
 const client = new Client({
@@ -47,15 +47,14 @@ const client = new Client({
 // Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
 const analytics = new DiscordAnalytics({
   client: client,
-  apiToken: 'YOUR_API_TOKEN',
+  api_key: 'YOUR_API_TOKEN',
   sharded: false // Set it to true if your bot use shards
 });
 
-// start tracking selected events
-analytics.trackEvents();
-
 // When Discord client is ready
-client.on('ready', () => {
+client.on('clientReady', async () => {
+  await analytics.init();
+  analytics.trackEvents();
   console.log("Bot is ready!");
 });
 
@@ -70,7 +69,7 @@ client.login('token');
 // Import Discord.js's client and intents
 import { Client, IntentsBitField } from "discord.js";
 // import discord-analytics
-import DiscordAnalytics from "discord-analytics/discordjs";
+import DiscordAnalytics from "@discordanalytics/discordjs";
 
 // Create Discord client
 const client = new Client({
@@ -81,15 +80,14 @@ const client = new Client({
 // Don't forget to replace YOUR_API_TOKEN by your Discord Analytics token !
 const analytics = new DiscordAnalytics({
   client: client,
-  apiToken: 'YOUR_API_TOKEN',
+  api_key: 'YOUR_API_TOKEN',
   sharded: false // Set it to true if your bot use shards
 });
 
-// start tracking selected events
-analytics.trackEvents();
-
 // When Discord client is ready
-client.on('ready', () => {
+client.on('clientReady', async () => {
+  await analytics.init();
+  analytics.trackEvents();
   console.log("Bot is ready!");
 });
 
