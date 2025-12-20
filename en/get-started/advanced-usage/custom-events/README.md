@@ -1,7 +1,3 @@
-event.increment() // Increment of 1 the event value
-event.decrement() // Decrement of 1 the event value (cannot be negative)
-event.set(5) // Set the event value to 5
-event.get() // Returns the current event value : 5
 # Custom Events
 
 Custom Events is a feature of Discord Analytics that allows you to define your own events. Currently, you can only create line charts.
