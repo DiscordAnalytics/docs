@@ -11,11 +11,11 @@ Discord Analytics est compatible avec les fournisseurs de votes suivants :
 | [Top.gg](https://top.gg)             | ✅Entièrement compatible                                        |
 | [BotList.me](https://botlist.me)     | 🏗️Compatible (mais peut contenir des bugs) |
 | [Discord Bot List](https://discordbotlist.com)       | ✅ Entièrement compatible                                       |
-| [Discord List](https://discordlist.gg)               | ✅ Entièrement compatible                                       |
+| [Discord Place](https://discord.place)               | 🏗️Compatible (but may contain bugs)        |
 | [Discords.com](https://discords.com) | ✅ Fully compatible                                             |
 
 :::warn
-Vous en voulez plus ? Demandez-nous sur notre [serveur Discord](https://discordanalytics.xyz/go/support) ;)
+Vous en voulez plus ? Ask us on our [Discord Server](https://discordanalytics.xyz/support) ;)
 :::
 
 ## Configuration
@@ -27,26 +27,26 @@ Vous en voulez plus ? Demandez-nous sur notre [serveur Discord](https://discorda
 2. Allez à la page de votre bot (`https://top.gg/bot/:your-bot-id`)
 3. Et cliquez sur "edit"
 
-![Image](https://i.imgur.com/qxNhBwF.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/get-started/votes-integration/topgg_step_1.png)
 
 4. Aller à l'onglet "Webhooks"
 
-![Image](https://i.imgur.com/Aw4jdqo.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/get-started/votes-integration/topgg_step_2.png)
 
 5. Collez l'URL suivante dans le champ "URL Webhook" : `https://discordanalytics.xyz/api/bots/:your-bot-id/votes/webhooks/topgg` (Remplacez `:your-bot-id` par l'ID de votre bot)
-6. Collez votre token Analytics Discord dans le champ "Webhook Secret"
+6. Paste your Discord Analytics API key in the "Webhook Secret" field
 
-![Image](https://i.imgur.com/RQJd8yt.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/get-started/votes-integration/topgg_step_3.png)
 
 7. Cliquez sur "Save" puis sur "Send a Test". Si tout est correct, vous recevrez un e-mail de confirmation.
 8. Profitez de vos stats :)
-  ::
+   ::
 
 ::tab [BotList.me]
 **Webhook endpoint:** `https://discordanalytics.xyz/api/bots/:your-bot-id/votes/webhooks/botlistme` (Replace `:your-bot-id` with your bot's ID) <br>
-**Webhook Secret:** your Discord Analytics token
+**Webhook Secret:** your Discord Analytics API key
 :::info
-Nous n'avons pas de bot sur BotList.me, c'est pourquoi nous ne sommes pas en possibilité de vous fournir un tutoriel complet. Si vous avez la possibilité de l'écrire, nous vous invitons à vous rendre sur le dépôt de cette documentation.
+We do not have a bot on BotList.me, which is why we are unable to provide you with a complete tutorial. Si vous avez la possibilité de l'écrire, nous vous invitons à vous rendre sur le dépôt de cette documentation.
 
 Nous vous prions de nous excuser pour la gêne occasionnée.
 :::
@@ -62,46 +62,45 @@ Nous vous prions de nous excuser pour la gêne occasionnée.
 2. Allez à la page de votre bot (`https://discordbotlist.com/bots/:your-bot-id`)
 3. Cliquez sur "Edit"
 
-![Image](https://i.imgur.com/qxJJZNA.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/get-started/votes-integration/dbl_step_1.png)
 
 4. Faites défiler vers le bas la section "Upvote Webhook"
 
-![Image](https://i.imgur.com/L9iqvdv.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/get-started/votes-integration/dbl_step_2.png)
 
 5. Collez l'URL suivante dans le champ "URL Webhook" : `https://discordanalytics.xyz/api/bots/:your-bot-id/votes/webhooks/dblist` (Remplacez `:your-bot-id` par l'ID de votre bot)
-6. Paste your Discord Analytics token in the "Webhook Secret" field
+6. Paste your Discord Analytics API key in the "Webhook Secret" field
 
-![Image](https://i.imgur.com/WfDZ7Wz.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/get-started/votes-integration/dbl_step_3.png)
 
 7. Cliquez sur "Save" puis sur "Test Webhook". Si tout est correct, vous recevrez un e-mail de confirmation.
 8. Profitez de vos stats :)
-  ::
+   ::
 
-::tab [Discord List]
+::tab [Discord Place]
 
-1. Connectez-vous sur [discordlist.gg](https://discordlist.gg)
-2. Allez à la page de votre bot (`https://discordlist.gg/bot/:your-bot-id`)
-3. Aller à l'onglet "Manage"
-4. Aller à l'onglet "Webhooks"
-5. Collez l'URL suivante dans le champ "URL Webhook" : `https://discordanalytics.xyz/api/bots/:your-bot-id/votes/webhooks/discordlist` (Remplacez `:your-bot-id` par l'ID de votre bot)
-6. Collez votre token Analytics Discord dans le champ "Webhook Authorization"
+1. Login on [discordlist.gg](https://discord.place)
+2. Go to your bot's page (`c'est https://discord.place/bots/:your-bot-id/manage`)
+3. Go to the "Webhook" section
+4. Paste the following url in the "Webhook URL" field: `https://discordanalytics.xyz/api/bots/:your-bot-id/votes/webhooks/discordplace` (Replace `:your-bot-id` with your bot's ID)
+5. Paste your Discord Analytics API key in the "Webhook Authorization" field
 
-![Image](https://i.imgur.com/9V0KONL.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/get-started/votes-integration/discordplace.png)
 
-7. Cliquez sur "Update Webhook". Si tout est correct, vous recevrez un e-mail de confirmation.
+7. Click on "Save". Si tout est correct, vous recevrez un e-mail de confirmation.
 8. Enjoy your stats :)
-  ::
+   ::
 
 ::tab [Discordscom]
 
 1. Login on [discords.com](https://discords.com)
 2. Go to your bot's settings
 3. Paste the following url in the "Webhook URL" field: `https://discordanalytics.xyz/api/bots/:your-bot-id/votes/webhooks/discordscom` (Replace `:your-bot-id` with your bot's ID)
-4. Paste your Discord Analytics token in the "Webhook Authorization" field
-5. Click on "Update Webhook". If everything is correct, you will receive a confirmation email.
+4. Collez votre token Analytics Discord dans le champ "Webhook Authorization"
+5. Cliquez sur "Update Webhook". If everything is correct, you will receive a confirmation email.
 6. Profitez de vos stats :)
-  ::
-  :::endtabs
+   ::
+   :::endtabs
 
 ## Pour aller plus loin
 
