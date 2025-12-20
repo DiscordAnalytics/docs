@@ -10,12 +10,12 @@ Discord Analytics is not comptible with Oceanic.js shards.
 
 ## Dependency
 
-Let's install `discord-analytics`'s package :
+Let's install `@discordanalytics/oceanic`'s package :
 
 :::tabs
 ::tab [NPM]
 ```sh
-npm install @discordanalytics/oceanic
+npm install 
 ```
 ::
 

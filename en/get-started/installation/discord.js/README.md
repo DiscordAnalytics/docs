@@ -6,7 +6,7 @@ The package is compatible with Discord.js v14 or higher
 
 ## Dependency
 
-Let's install `discord-analytics`'s package :
+Let's install `@discordanalytics/discordjs`'s package :
 
 :::tabs 
 ::tab [NPM]
