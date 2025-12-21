@@ -1,19 +1,18 @@
 <script setup lang="ts">
 import DefaultTheme from 'vitepress/theme'
-import {useData} from "vitepress";
-import {computed, onMounted} from "vue";
+import {ref, onMounted} from "vue";
 
 const { Layout } = DefaultTheme
-const { isDark } = useData()
 
-const logoPath = computed(() => {
-  return `/brand/long_logo_${isDark.value ? 'light' : 'dark'}.webp`
-})
+const logoPath = ref(`/brand/long_logo_dark.webp`);
 
 onMounted(() => {
   const html = document.querySelector("html");
 
-  if (html) html.classList.add('theme-blue')
+  if (html) {
+    html.classList.add('theme-blue')
+    if (html.classList.contains('dark')) logoPath.value = `/brand/long_logo_light.webp`
+  }
 })
 </script>
 
