@@ -1,0 +1,15 @@
+*.local
+.vitepress/cache
+.vitepress/dist
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.zed
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
