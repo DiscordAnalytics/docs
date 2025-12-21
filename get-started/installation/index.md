@@ -15,31 +15,31 @@ const cards = ref([
     title: 'Discord.js',
     description: 'JavaScript/TypeScript',
     image: 'https://r2.discordanalytics.xyz/images/docs/get-started/installation/djs_banner.png',
-    link: '/get-started/installation/discord.js',
+    link: '/docs/get-started/installation/discordjs',
   },
   {
     title: 'Eris',
     description: 'JavaScript/TypeScript',
     image: 'https://r2.discordanalytics.xyz/images/docs/get-started/installation/eris_banner.png',
-    link: '/get-started/installation/eris',
+    link: '/docs/get-started/installation/eris',
   },
   {
     title: 'Oceanic.js',
     description: 'JavaScript/TypeScript',
     image: 'https://r2.discordanalytics.xyz/images/docs/get-started/installation/oceanic_banner.png',
-    link: '/get-started/installation/oceanic.js',
+    link: '/docs/get-started/installation/oceanicjs',
   },
   {
     title: 'Java',
     description: 'Discord4J, Javacord, JDA',
     image: 'https://r2.discordanalytics.xyz/images/docs/get-started/installation/java_banner.png',
-    link: '/get-started/installation/java',
+    link: '/docs/get-started/installation/java',
   },
   {
     title: 'Discord.py',
     description: 'Python',
     image: 'https://r2.discordanalytics.xyz/images/docs/get-started/installation/discordpy_banner.png',
-    link: '/get-started/installation/discord.py',
+    link: '/docs/get-started/installation/discordpy',
   },
 ]);
 </script>
