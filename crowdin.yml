@@ -1,6 +1,0 @@
-preserve_hierarchy: false
-
-files:
-  - source: /en/**/*.md
-    translation: /%two_letters_code%/**/%original_file_name%
-    type: md
