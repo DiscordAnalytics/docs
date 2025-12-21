@@ -1,16 +1,14 @@
 <script setup lang="ts">
 import DefaultTheme from 'vitepress/theme'
 import {useData} from "vitepress";
-import {onMounted} from "vue";
+import {computed, onMounted} from "vue";
 
 const { Layout } = DefaultTheme
 const { isDark } = useData()
 
-function getLogoPath (): string {
-  const variant = isDark.value ? 'light' : 'dark';
-
-  return `/brand/long_logo_${variant}.webp`
-}
+const logoPath = computed(() => {
+  return `/brand/long_logo_${isDark.value ? 'light' : 'dark'}.webp`
+})
 
 onMounted(() => {
   const html = document.querySelector("html");
@@ -23,7 +21,7 @@ onMounted(() => {
   <Layout>
     <template #nav-bar-title-before>
       <img
-        :src="getLogoPath()"
+        :src="logoPath"
         alt="Discord Analytics"
         class="logo"
       >
