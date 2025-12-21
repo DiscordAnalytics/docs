@@ -19,7 +19,7 @@ const sidebar = [
         items: [
           {
             text: "Discord.js",
-            link: "/get-started/installation/discord.js"
+            link: "/get-started/installation/discordjs"
           },
           {
             text: "Eris",
@@ -27,7 +27,7 @@ const sidebar = [
           },
           {
             text: "Discord.py",
-            link: "/get-started/installation/discord.py"
+            link: "/get-started/installation/discordpy"
           },
           {
             text: "Java",
@@ -35,7 +35,7 @@ const sidebar = [
           },
           {
             text: "Oceanic.js",
-            link: "/get-started/installation/oceanic.js"
+            link: "/get-started/installation/oceanicjs"
           }
         ]
       },
