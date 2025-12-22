@@ -110,7 +110,7 @@ const sidebar = [
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Discord Analytics",
-  description: "A VitePress Site",
+  description: "Official documentation for Discord Analytics",
   base: "/docs/",
   lastUpdated: false,
   themeConfig: {
