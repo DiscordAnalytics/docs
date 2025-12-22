@@ -111,8 +111,8 @@ client.connect();
 import BlockLink from '../../../components/BlockLink.vue'
 </script>
 
-<BlockLink href="/get-started/advanced-usage/esm" title="Using ESM (JavaScript)" />
-<BlockLink href="/get-started/advanced-usage/optimize-events" title="Optimize events (NodeJS)" />
+<BlockLink href="/docs/get-started/advanced-usage/esm" title="Using ESM (JavaScript)" />
+<BlockLink href="/docs/get-started/advanced-usage/optimize-events" title="Optimize events (NodeJS)" />
 
 ## Complete installation
 
