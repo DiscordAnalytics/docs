@@ -98,4 +98,4 @@ import BlockLink from '../components/BlockLink.vue'
 
 If you would like, you can receive a universal webhook for all the voting providers you have set up directly in your application! To do this, go to the following page:
 
-<BlockLink href="/get-started/advanced-usage/receive-votes" title="Receive votes" />
+<BlockLink href="/docs/get-started/advanced-usage/receive-votes" title="Receive votes" />
