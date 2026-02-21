@@ -2,21 +2,59 @@
 
 Thank you for your interest in our website, Discord Analytics. Your privacy is of great importance to us, and we are committed to protecting your personal data in accordance with the European Union's General Data Protection Regulation (GDPR).
 
-
-
 ## I. Data collection and use
 
 We only collect and store information necessary for the operation of our services. The data we collect may include, but is not limited to:
 
 * Identification Information: We may collect information such as your Discord account data (username, id, avatar, and account creation date) and your email address.
 * Technical Data: We may collect technical data, such as IP address, browser type, operating system, and other technical information when you visit our website.
-* Analytical Data: We use a self-hosted version of Plausible Analytics to collect analytical data on the usage of our website. For more information on Plausible's data policy, please refer to [their data policy](https://plausible.io/data-policy).
+* Analytical Data: We use analytics tools to collect data on the usage of our website. See section II for more details.
 
-## II. Cookies
+## II. Analytics and cookies
 
-Our website uses strictly necessary cookies that are essential for the proper functioning of the site. These cookies do not track users and are used solely to provide basic site functionality.
+### Analytics Services
 
-## III. Third-Party cookies
+We use two analytics services to understand how users interact with our website:
+
+**Plausible Analytics (Always Active)**
+* Self-hosted, privacy-friendly analytics
+* No cookies used
+* Collects anonymous page views and basic navigation data
+* No personal data collection
+* For more information: [Plausible Data Policy](https://plausible.io/data-policy)
+
+**OpenObserve (Requires Consent)**
+
+With your consent, we use OpenObserve, a self-hosted analytics platform, to collect:
+* Page views and navigation patterns
+* User interactions (clicks, form submissions)
+* Performance metrics (page load times, resource loading)
+* Session recordings (with user input masked for privacy)
+* Error logs and technical issues
+
+All OpenObserve data is:
+* Stored on our self-hosted servers in France
+* Never shared with third parties
+* Processed in accordance with GDPR
+* Anonymized where possible
+
+### Cookie Consent
+
+When you first visit our website, you will be presented with a cookie consent banner for OpenObserve analytics. You can choose to:
+
+* **Accept**: This enables OpenObserve analytics and session recording
+* **Decline**: Only Plausible analytics (cookieless) will be used
+
+You can change your consent preferences at any time by clearing your browser's local storage for our domain.
+
+### Essential Cookies
+
+Our website uses strictly necessary cookies that are essential for the proper functioning of the site. These cookies do not track users and are used solely to:
+* Maintain your authentication session
+* Remember your consent preferences
+* Store your language and theme preferences
+
+## III. Third-Party services
 
 We use third-party services like Cloudflare, which may use cookies to collect information about the usage of our website, including visited pages, time spent on the site, clicked links, and similar data. Please note that these cookies are subject to their own privacy policies.
 
@@ -29,10 +67,10 @@ Cloudflare Analytics is disabled on our website.
 ## IV. Data storage
 
 The data we collect is securely stored on our servers. We store locally (on your browser) only an encrypted token that allows interaction with our API. We take reasonable security measures to protect your data from unauthorized access or disclosure. All your data is hosted in Europe by:
- - [Neo-Serv](https://neo-serv.fr) (France): apps & logs
- - [AWS](https://aws.com) (France): Database
- - [Cloudflare](https://www.cloudflare.com) (Europe): Images
- - Self-hosted: Plausible
+- [Neo-Serv](https://neo-serv.fr) (France): apps & logs
+- [AWS](https://aws.com) (France): Database
+- [Cloudflare](https://www.cloudflare.com) (Europe): Images
+- Self-hosted (France): Plausible Analytics, OpenObserve
 
 ## V. User rights
 
@@ -73,4 +111,4 @@ We reserve the right to update this privacy policy at any time. Any changes will
 
 ---
 
-**LAST UPDATE : 19 December 2025**
+**LAST UPDATE: 21 February 2026**
