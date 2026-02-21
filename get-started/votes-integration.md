@@ -20,8 +20,12 @@ Want more? Ask us on our [Discord Server](https://discordanalytics.xyz/support) 
 
 ## Configuration
 
-:::tabs
+::::tabs
 == Top.gg
+::: warning
+Due to a recent update to top.gg's webhooks, the integration with votes may not work as expected. We are currently working with top.gg to restore the integration as soon as possible.
+:::
+
 1. Login on [top.gg](https://top.gg)
 2. Go to your bot's page (`https://top.gg/bot/:your-bot-id`)
 3. And click on "edit"
@@ -92,7 +96,7 @@ import BlockLink from '../components/BlockLink.vue'
 4. Paste your Discord Analytics token in the "Webhook Authorization" field
 5. Click on "Update Webhook". If everything is correct, you will receive a confirmation email.
 6. Enjoy your stats :)
-:::
+::::
 
 ## To Go Further
 
