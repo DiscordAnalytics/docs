@@ -21,5 +21,5 @@ To simplify the self hosting experience, we provide Docker Images. We don't want
 
 To help you, here are some example of image tags:
 - `ghcr.io/DiscordAnalytics/api:latest` -> latest version of Discord Analytics' API with no special features
-- `ghcr.io/DiscordAnalytics/api:1.0.0-mails` -> version 1.0.0 of Discord Analytics' API with the mails feature
+- `ghcr.io/DiscordAnalytics/api:v1.0.0-mails` -> version 1.0.0 of Discord Analytics' API with the mails feature
 - `ghcr.io/DiscordAnalytics/api:feat-monetization-full` -> Preview of the `feat/monetization` branch with all the cloud features
