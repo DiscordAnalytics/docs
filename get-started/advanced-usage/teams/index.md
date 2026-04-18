@@ -14,22 +14,17 @@ Teams allow you to authorize anyone to access your bot. However, the teammates h
 | See bot's achievements    | ✅                    |
 | Edit bot's achievements   | ❌                    |
 
-:::info
-For the latest package versions, the team is synchronised with the discord.dev bot's team.
-:::
-
 ## Edit teammates list
 
 - First, [copy the ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) of the user you want to give access to your bot.
-- Then, go to your bot's settings
-- Paste the ID in the "Stats Access" section.
+- Then, go to your Discord Analytics dashboard in the "General" tab
 
-![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/teams/edit_step_1.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/teams/step_1_dark.png){.dark-only}
+![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/teams/step_1_light.png){.light-only}
 
-- After clicking on ‘Add’, you will be asked to choose a way of sending the invitation to your future teammate.
+- Click on "Invite a teammate" and paste the ID in the "User ID" field:
 
-![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/teams/edit_step_2.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/teams/step_2_dark.png){.dark-only}
+![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/teams/step_2_light.png){.light-only}
 
-:::warning
-The email option requires the user to have a Discord Analytics account.
-:::
+- If possible, we'll notify the user of the invitation, if not you'll the send it by yourself.

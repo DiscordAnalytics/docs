@@ -1,18 +1,14 @@
 # Bot registration
 
-1. [First, copy your bot's ID.](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-)
-2. Next, go to the dashboard and click on "add bot"
+First, you'll need to get [your bot's ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-). Then, go to [the dashboard](https://discordanalytics.xyz/dash), enter your bot's ID, accept the Terms of Service and click on "Submit".
 
-![Image](https://r2.discordanalytics.xyz/images/docs/get-started/bot_registration/step_1.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/get-started/bot_registration/step_1_dark.png){.dark-only}
+![Image](https://r2.discordanalytics.xyz/images/docs/get-started/bot_registration/step_1_light.png){.light-only}
 
-3. In the popup that appears, paste your bot's ID and accept the Terms of Use, then validate.
+::: details I don't see this page
+If you already registered a bot on Discord Analytics, you're not automatically redirected to the onboarding. From the dashboard, click on "Add bot":
 
-![Image](https://r2.discordanalytics.xyz/images/docs/get-started/bot_registration/step_2.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/get-started/bot_registration/step_2_dark.png){.dark-only}
+![Image](https://r2.discordanalytics.xyz/images/docs/get-started/bot_registration/step_2_light.png){.light-only}
+:::
 
-4. Once you have added your bot, you are redirected to this page :&#x20;
-
-![Image](https://r2.discordanalytics.xyz/images/docs/get-started/bot_registration/step_3.png)
-
-5. Click on "Go to settings" and copy your bot's token
-
-![Image](https://r2.discordanalytics.xyz/images/docs/get-started/bot_registration/step_4.png)

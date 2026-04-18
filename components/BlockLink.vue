@@ -1,26 +1,26 @@
 <script setup lang="ts">
 defineProps<{
-  href: string;
-  title: string;
-  description?: string;
+  href: string
+  title: string
+  description?: string
 }>()
 </script>
 
 <template>
   <a :href="$props.href">
-    <h3>{{ $props.title }}</h3>
     <p v-if="$props.description">{{ $props.description }}</p>
+    <h3>{{ $props.title }}</h3>
   </a>
 </template>
 
 <style scoped>
 a {
-  border-radius: 0.5rem;
+  border-radius: 0.5em;
   border: 1px solid var(--vp-c-border);
   background-color: var(--vp-c-bg-alt);
-  padding: 1.5rem;
+  padding: 1em 0.75rem;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: all 0.2s linear;
   text-decoration: none;
   width: 100%;
   display: block;
@@ -28,19 +28,18 @@ a {
 }
 
 a:hover {
-  background-color: var(--vp-code-block-bg);
+  border: 1px solid var(--accent-foreground);
 }
 
-
 a h3 {
-  font-size: 1.25rem;
-  font-weight: bold;
+  font-size: 1em;
+  font-weight: 500;
   margin-top: 0;
   margin-bottom: 0.5rem;
   color: var(--vp-c-text-1);
 }
 a p {
-  font-size: 1rem;
+  font-size: 0.8em;
   color: var(--vp-c-text-2);
 }
 </style>

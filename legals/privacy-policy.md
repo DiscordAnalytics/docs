@@ -14,36 +14,28 @@ We only collect and store information necessary for the operation of our service
 
 ### Analytics Services
 
-We use two analytics services to understand how users interact with our website:
+We use PostHog, a third-party analytics platform hosted in the European Union, to understand how users interact with our website. Data is sent through our own domain to ensure reliable collection.
 
-**Plausible Analytics (Always Active)**
-* Self-hosted, privacy-friendly analytics
-* No cookies used
-* Collects anonymous page views and basic navigation data
-* No personal data collection
-* For more information: [Plausible Data Policy](https://plausible.io/data-policy)
+**PostHog (Requires Consent)**
 
-**OpenObserve (Requires Consent)**
-
-With your consent, we use OpenObserve, a self-hosted analytics platform, to collect:
+With your consent, PostHog collects:
 * Page views and navigation patterns
 * User interactions (clicks, form submissions)
 * Performance metrics (page load times, resource loading)
-* Session recordings (with user input masked for privacy)
 * Error logs and technical issues
 
-All OpenObserve data is:
-* Stored on our self-hosted servers in France
-* Never shared with third parties
+All PostHog data is:
+* Hosted in the European Union by PostHog, Inc.
+* Never shared with third parties beyond PostHog
 * Processed in accordance with GDPR
-* Anonymized where possible
+* For more information: [PostHog Privacy Policy](https://posthog.com/privacy)
 
 ### Cookie Consent
 
-When you first visit our website, you will be presented with a cookie consent banner for OpenObserve analytics. You can choose to:
+Analytics tracking is **disabled by default**. When you first visit our website, you will be presented with a consent banner. You can choose to:
 
-* **Accept**: This enables OpenObserve analytics and session recording
-* **Decline**: Only Plausible analytics (cookieless) will be used
+* **Accept**: This enables PostHog analytics
+* **Decline**: No analytics data will be collected
 
 You can change your consent preferences at any time by clearing your browser's local storage for our domain.
 
@@ -67,10 +59,10 @@ Cloudflare Analytics is disabled on our website.
 ## IV. Data storage
 
 The data we collect is securely stored on our servers. We store locally (on your browser) only an encrypted token that allows interaction with our API. We take reasonable security measures to protect your data from unauthorized access or disclosure. All your data is hosted in Europe by:
-- [Neo-Serv](https://neo-serv.fr) (France): apps & logs
+- [Neo-Serv](https://neo-serv.fr) (France): apps
 - [AWS](https://aws.com) (France): Database
 - [Cloudflare](https://www.cloudflare.com) (Europe): Images
-- Self-hosted (France): Plausible Analytics, OpenObserve
+- [PostHog, Inc.](https://posthog.com) (European Union): Analytics
 
 ## V. User rights
 
@@ -111,4 +103,4 @@ We reserve the right to update this privacy policy at any time. Any changes will
 
 ---
 
-**LAST UPDATE: 21 February 2026**
+**LAST UPDATE: 17 April 2026**

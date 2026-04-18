@@ -99,8 +99,8 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-c-bg: hsl(var(--background));
-  --vp-c-bg-alt: hsl(var(--background));
+  --vp-c-bg: var(--background);
+  --vp-c-bg-alt: var(--background);
   --vp-c-bg-elv: #ffffff;
   --vp-c-bg-soft: #f6f6f7;
 }
@@ -124,8 +124,8 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-c-border: hsl(var(--border));
-  --vp-c-divider: hsl(var(--border));
+  --vp-c-border: var(--border);
+  --vp-c-divider: var(--border);
   --vp-c-gutter: #e2e2e3;
 }
 
@@ -182,7 +182,7 @@
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: hsl(var(--primary));
+  --vp-c-brand-1: var(--primary);
   --vp-c-brand-2: var(--vp-c-indigo-2);
   --vp-c-brand-3: var(--vp-c-indigo-3);
   --vp-c-brand-soft: var(--vp-c-indigo-soft);
@@ -307,7 +307,7 @@
   --vp-code-bg: var(--vp-c-default-soft);
 
   --vp-code-block-color: var(--vp-c-text-2);
-  --vp-code-block-bg: hsl(var(--accent));
+  --vp-code-block-bg: var(--accent);
   --vp-code-block-divider-color: var(--vp-c-gutter);
 
   --vp-code-lang-color: var(--vp-c-text-2);
@@ -554,4 +554,12 @@
   --vp-local-search-result-selected-border: var(--vp-c-brand-1);
   --vp-local-search-highlight-bg: var(--vp-c-brand-1);
   --vp-local-search-highlight-text: var(--vp-c-neutral-inverse);
+}
+
+html.dark .light-only {
+  display: none !important;
+}
+
+html:not(.dark) .dark-only {
+  display: none !important;
 }

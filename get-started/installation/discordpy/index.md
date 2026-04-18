@@ -34,4 +34,7 @@ client.run('TOKEN')
 
 ## Complete installation
 
-To complete installation, please restart your bot.
+To complete installation, please restart your bot. And wait on the dashboard until you get this page:
+
+![Image](https://r2.discordanalytics.xyz/images/docs/get-started/installation/configuration_success_dark.png){.dark-only}
+![Image](https://r2.discordanalytics.xyz/images/docs/get-started/installation/configuration_success_light.png){.light-only}

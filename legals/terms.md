@@ -53,6 +53,12 @@ We reserve all rights not expressly granted to you in and to the Services, Conte
 
 Any breach of these Intellectual Property Rights will constitute a material breach of our Legal Terms and your right to use our Services will terminate immediately.
 
+### Open-Source Licensing
+
+Portions of the Services are made available as open-source software. The website and API are licensed under the [GNU Affero General Public License v3.0 (AGPL v3)](https://www.gnu.org/licenses/agpl-3.0.html), and the Discord Analytics SDKs are licensed under the [GNU Lesser General Public License (LGPL)](https://www.gnu.org/licenses/lgpl-3.0.html). The full source code is publicly available in our repositories.
+
+Nothing in these Legal Terms restricts any rights granted to you under those open-source licenses. Where an open-source license expressly permits you to copy, modify, distribute, or otherwise use the source code, these Legal Terms do not override or limit those rights. The restrictions on Content and Marks set out in this section apply to the cloud-hosted Services, branding, and non-code content, and not to source code covered by an applicable open-source license.
+
 Please review this section and the [PROHIBITED ACTIVITIES](terms.md#5.-prohibed-activities) section carefully prior to using our Services to understand the (a) tights you give us and (b) obligations you have when post or upload any content through the Services.
 
 **Submissions:** By directly sending us any question, comment, suggestion, idea, feedback, or other information about the Services ("Submissions"), you agree to assign to us all intellectual property rights in such Submission. You agree to shall own this Submission and be entitled to its unrestricted use and dissemination for any lawful purpose, commercial or otherwise, without acknowledgment or compensation to you.
@@ -105,8 +111,8 @@ As user of the Services, you agree not to :&#x20;
 * Interfere with, disrupt, or create an undue burden on the Services or the networks or services connected to the Services.
 * Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Services to you.
 * Attempt to bypass a sanction or limitation set by the Services or our team.
-* Copy or adapt the Services' software, including but not limited to Flash, PHP, HTML, JavaScript, or other code (except to create a new package).
-* Except as permitted by applicable law, decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Services.
+* Copy or adapt the Services' software, including but not limited to Flash, PHP, HTML, JavaScript, or other code (except to create a new package, or as expressly permitted by the applicable open-source license governing that software, including AGPL v3 and LGPL).
+* Except as permitted by applicable law or by the applicable open-source license (including AGPL v3 and LGPL), decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Services.
 * Except as may be the result of standard search engine or Internet browser usage, use, launch, develop, or distribute any automated system, including without limitation, any spider, robot, cheat utility, scraper, or offline reader that accesses the Services, or use or launch any unauthorized script or other software.
 * Make any unauthorized use of the Services, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.
 * Use the Services as part of any effort to compete with us or otherwise use the Services and/or the Content for any revenue-generating endeavor or commercial enterprise.
@@ -185,4 +191,4 @@ In order to resolve a complaint regarding the Services or to receive further inf
 
 ---
 
-**LAST UPDATE : 18 July 2024**
+**LAST UPDATE : 17 April 2026**

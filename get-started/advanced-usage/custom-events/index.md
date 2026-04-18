@@ -8,13 +8,19 @@ In this example we'll assume your bot uses Discord.js and you want to know how o
 
 Before we start, we need to create an event on Discord Analytics' dashboard. Log in at https://discordanalytics.xyz/dash, select your bot in the menu, and go to the "Custom Events" page. Then click "Create Custom Event":
 
-![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/custom_events/step_1.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/custom_events/step_1_dark.png){.dark-only}
+![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/custom_events/step_1_light.png){.light-only}
 
 Now you need to define two things:
 - The event key, which is a unique identifier for this event. It cannot be updated later, so don't use too generic a value.
-- The Graph Name, which is the name of the graph shown on the dashboard.
+- The Chart Name, which is the name of the graph shown on the dashboard.
 
-![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/custom_events/step_2.png)
+![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/custom_events/step_2_dark.png){.dark-only}
+![Image](https://r2.discordanalytics.xyz/images/docs/advanced-usage/custom_events/step_2_light.png){.light-only}
+
+:::info
+The default value behavior allows you to define how your in behaves every time the counter is reset (every hour). The "User previous hour value" option allows you to create incremental charts (e.g. to count the amount of members banned by your bot without having to know that number in your code).
+:::
 
 Then open your bot's code and add the following lines:
 ```js
