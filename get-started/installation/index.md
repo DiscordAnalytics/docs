@@ -18,22 +18,10 @@ const cards = ref([
     link: '/docs/get-started/installation/discordjs',
   },
   {
-    title: 'Eris',
-    description: 'JavaScript/TypeScript',
-    image: 'https://r2.discordanalytics.xyz/images/docs/get-started/installation/eris_banner.png',
-    link: '/docs/get-started/installation/eris',
-  },
-  {
     title: 'Oceanic.js',
     description: 'JavaScript/TypeScript',
     image: 'https://r2.discordanalytics.xyz/images/docs/get-started/installation/oceanic_banner.png',
     link: '/docs/get-started/installation/oceanicjs',
-  },
-  {
-    title: 'Java',
-    description: 'Discord4J, Javacord, JDA',
-    image: 'https://r2.discordanalytics.xyz/images/docs/get-started/installation/java_banner.png',
-    link: '/docs/get-started/installation/java',
   },
   {
     title: 'Discord.py',
