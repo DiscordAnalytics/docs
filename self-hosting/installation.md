@@ -51,7 +51,7 @@ And finally you can update `api`'s dependencies:
     db:
       condition: service_healthy
 +   redis:
-+   condition: service_healthy
++     condition: service_healthy
 ```
 You'll also need some additional configuration. [More information](/self-hosting/configuration-reference.html#actix-limitation)
 :::
