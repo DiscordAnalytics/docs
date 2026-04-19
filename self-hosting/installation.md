@@ -22,6 +22,40 @@ The compose file comes by default with the `latest`, you can change that if you 
 As everything you download from internet, you should always make sure the content of it is what you expect it to be.
 :::
 
+:::details Additional configuration for `<version>-full` API versions
+This variant includes a rate-limiter which requires a Redis server. If you want to use that variant, you'll need to update the `docker-compose.yml` file.
+
+First, add a new service:
+```yml
+redis:
+  image: redis:8
+  command: redis-server --save 60 1 --loglevel warning
+  volumes:
+    - redis_data:/data
+  healthcheck:
+    test: [ "CMD", "redis-cli", "--raw", "incr", "ping" ]
+    interval: 10s
+    timeout: 10s
+    retries: 5
+  restart: unless-stopped
+```
+Then you need to declare the new volume:
+```diff
+  volumes:
+    mongo_data:
++   redis_data:
+```
+And finally you can update `api`'s dependencies:
+```diff
+  depends_on:
+    db:
+      condition: service_healthy
++   redis:
++   condition: service_healthy
+```
+You'll also need some additional configuration. [More information](/self-hosting/configuration-reference.html#actix-limitation)
+:::
+
 Once that's done you can pull the images from the registry
 ```bash
 sudo docker compose pull
