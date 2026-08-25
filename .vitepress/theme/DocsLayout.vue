@@ -2,6 +2,8 @@
 import DefaultTheme from 'vitepress/theme'
 import { onMounted } from 'vue'
 
+import CookieConsent from './CookieConsent.vue'
+
 const { Layout } = DefaultTheme
 
 onMounted(() => {
@@ -26,6 +28,11 @@ onMounted(() => {
         alt="Discord Analytics"
         class="logo light-only"
       />
+    </template>
+    <template #layout-bottom>
+      <ClientOnly>
+        <CookieConsent />
+      </ClientOnly>
     </template>
   </Layout>
 </template>

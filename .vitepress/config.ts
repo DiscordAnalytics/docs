@@ -1,3 +1,4 @@
+import tailwindcss from '@tailwindcss/vite'
 import { DefaultTheme, defineConfig } from 'vitepress'
 import { fileURLToPath } from 'node:url'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
@@ -126,6 +127,7 @@ export default defineConfig({
   description: 'Official documentation for Discord Analytics',
   base: '/docs/',
   lastUpdated: false,
+  head: [['script', { src: '/config.js' }]],
   themeConfig: {
     sidebar,
 
@@ -154,6 +156,7 @@ export default defineConfig({
     },
   },
   vite: {
+    plugins: [tailwindcss()],
     resolve: {
       alias: [
         {
