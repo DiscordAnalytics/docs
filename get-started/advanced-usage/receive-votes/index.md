@@ -103,7 +103,7 @@ Here is a table listing each of the parameters included in the webhook body:
 | ---------- | ------------------------------------------------------- | ------------------------------------ |
 | `bot_id`    | String                                                 | Your bot's ID                        |
 | `voter_id`  | String                                                 | The voter's ID                       |
-| `provider` | `botlistme`, `dblist`, `discordlist`, `topgg` or `test` | The voting provider                  |
+| `provider` | `botillon`, `botlistme`, `dblist`, `discordlist`, `topgg` or `test` | The voting provider                  |
 | `date`     | String                                                  | The vote date                        |
 | `raw_data` | Object                                                  | The data sent by the voting provider |
 

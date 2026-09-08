@@ -13,6 +13,7 @@ Discord Analytics is compatible with the following votes providers:
 | [Discord Bot List](https://discordbotlist.com) | ✅ Fully compatible                   |
 | [Discord Place](https://discord.place)         | 🏗️Compatible (but may contain bugs)  |
 | [Discords.com](https://discords.com)         | ✅ Fully compatible                   |
+| [Botillon](https://botillon.fr)                 | 🏗️Compatible (but may contain bugs)  |
 
 :::info
 Want more? Ask us on our [Discord Server](https://discordanalytics.xyz/support) ;)
@@ -77,6 +78,25 @@ And you should now be able to receive your votes in Discord Analytics from Top.g
 
 7. You can come back to Top.gg, click on the cross then "Send a Test". If everything is correct, you will receive a confirmation email.
 And you should now be able to receive your votes in Discord Analytics from Top.gg.
+
+== Botillon
+::: warning
+Botillon is not available for self-hosted instances.
+:::
+
+1. Login on [Botillon](https://botillon.fr) and go to your bot's management page
+2. Go to the "Outils & API" tab
+
+![Image](https://r2.discordanalytics.xyz/images/docs/get-started/votes-integration/botillon_step_1.png)
+
+3. Scroll down to the "Intégrations partenaires" section and click "Connecter" next to Discord Analytics
+
+![Image](https://r2.discordanalytics.xyz/images/docs/get-started/votes-integration/botillon_step_2.png)
+
+That's it — Botillon will start sending votes to Discord Analytics automatically. No webhook
+secret needs to be configured manually.
+
+Need help? Join [Botillon's Discord server](https://discord.gg/sYzAWp6VWa).
 
 == BotList.me
 **Webhook endpoint:** `https://discordanalytics.xyz/api/webhooks/botlistme`
