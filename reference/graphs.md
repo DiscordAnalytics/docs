@@ -24,6 +24,12 @@ To determine these 5 interactions, the website adds stats for the selected time 
 
 These tree graphs show you the percentage of most received interactions, filtered per type (Commands, Components and Modals). To determine the 5 interactions, the website adds stats for the selected time period and picks the top 5.
 
+### Activity Heatmap
+
+![Image](https://r2.discordanalytics.xyz/images/docs/reference/graphs/activity_heatmap.png)
+
+This heatmap shows you when your bot receives interactions, broken down by day of the week and hour of the day, so you can spot your busiest times at a glance.
+
 ***
 
 ## Guilds
